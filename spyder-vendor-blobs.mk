@@ -74,6 +74,7 @@ vendor/motorola/spyder/proprietary/backup_targets.csv:/system/etc/backup_targets
 vendor/motorola/spyder/proprietary/btpan.conf:/system/etc/btpan.conf \
 vendor/motorola/spyder/proprietary/ecryptfs.exc:/system/etc/ecryptfs.exc \
 vendor/motorola/spyder/proprietary/ecryptfs.tab:/system/etc/ecryptfs.tab \
+vendor/motorola/spyder/proprietary/encrypt.tab:/system/etc/encrypt.tab
 vendor/motorola/spyder/proprietary/event-log-tags:/system/etc/event-log-tags \
 vendor/motorola/spyder/proprietary/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
 vendor/motorola/spyder/proprietary/hdmiSolDefLg.gif:/system/etc/hdmiSolDefLg.gif \
@@ -84,6 +85,7 @@ vendor/motorola/spyder/proprietary/pvplayer.cfg:/system/etc/pvplayer.cfg \
 vendor/motorola/spyder/proprietary/supportedlocales.conf:/system/etc/supportedlocales.conf \
 vendor/motorola/spyder/proprietary/smc_android_cfg.ini:/system/etc/smc_android_cfg.ini \
 vendor/motorola/spyder/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
+vendor/motorola/spyder/proprietary/smc_pa_pk_4_8Mb_ipa.bin:/system/etc/smc_pa_pk_4_8Mb_ipa.bin \
 vendor/motorola/spyder/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 
 #vendor/motorola/spyder/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
