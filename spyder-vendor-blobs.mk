@@ -74,7 +74,7 @@ vendor/motorola/spyder/proprietary/backup_targets.csv:/system/etc/backup_targets
 vendor/motorola/spyder/proprietary/btpan.conf:/system/etc/btpan.conf \
 vendor/motorola/spyder/proprietary/ecryptfs.exc:/system/etc/ecryptfs.exc \
 vendor/motorola/spyder/proprietary/ecryptfs.tab:/system/etc/ecryptfs.tab \
-vendor/motorola/spyder/proprietary/encrypt.tab:/system/etc/encrypt.tab
+vendor/motorola/spyder/proprietary/encrypt.tab:/system/etc/encrypt.tab \
 vendor/motorola/spyder/proprietary/event-log-tags:/system/etc/event-log-tags \
 vendor/motorola/spyder/proprietary/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
 vendor/motorola/spyder/proprietary/hdmiSolDefLg.gif:/system/etc/hdmiSolDefLg.gif \
