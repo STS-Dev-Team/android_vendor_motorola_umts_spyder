@@ -289,8 +289,6 @@ vendor/motorola/spyder/proprietary/libportaljni.so:/system/lib/libportaljni.so \
 
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
-vendor/motorola/spyder/proprietary/Notify_MPUAPP_reroute_Test_Core1.xem3:/system/lib/ducati/Notify_MPUAPP_reroute_Test_Core1.xem3 \
-vendor/motorola/spyder/proprietary/Notify_MPUSYS_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_Test_Core0.xem3 \
 vendor/motorola/spyder/proprietary/Notify_MPUSYS_reroute_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_reroute_Test_Core0.xem3 \
 vendor/motorola/spyder/proprietary/base_image_app_m3.xem3:/system/lib/ducati/base_image_app_m3.xem3 \
 
@@ -299,6 +297,7 @@ PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/gps.spyder.so:/system/lib/hw/gps.spyder.so \
 vendor/motorola/spyder/proprietary/lights.spyder.so:/system/lib/hw/lights.spyder.so \
 vendor/motorola/spyder/proprietary/sensors.spyder.so:/system/lib/hw/sensors.spyder.so \
+vendor/motorola/spyder/proprietary/sensorhub.spyder.so:/system/lib/hw/sensorhub.spyder.so \
 
 # system/xbin
 PRODUCT_COPY_FILES += \
