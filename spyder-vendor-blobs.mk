@@ -207,9 +207,8 @@ vendor/motorola/spyder/proprietary/libdmengine.so:/system/lib/libdmengine.so \
 vendor/motorola/spyder/proprietary/libdmjavaplugin.so:/system/lib/libdmjavaplugin.so \
 vendor/motorola/spyder/proprietary/libexempi.so:/system/lib/libexempi.so \
 vendor/motorola/spyder/proprietary/libextdisp.so:/system/lib/libextdisp.so \
-vendor/motorola/spyder/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
-vendor/motorola/spyder/proprietary/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
-vendor/motorola/spyder/proprietary/libfmradioplayer.so:/system/lib/libfmradioplayer.so \
+vendor/motorola/spyder/proprietary/libfmchr.so:/system/lib/libfmchr.so \
+vendor/motorola/spyder/proprietary/libfm_stack.so:/system/lib/libfm_stack.so \
 vendor/motorola/spyder/proprietary/libgdx.so:/system/lib/libgdx.so \
 vendor/motorola/spyder/proprietary/libhdcp.so:/system/lib/libhdcp.so \
 vendor/motorola/spyder/proprietary/libhdmi.so:/system/lib/libhdmi.so \
@@ -286,7 +285,6 @@ vendor/motorola/spyder/proprietary/vril-dump:/system/bin/vril-dump \
 vendor/motorola/spyder/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
 vendor/motorola/spyder/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
 vendor/motorola/spyder/proprietary/mountosh:/system/bin/mountosh \
-vendor/motorola/spyder/proprietary/fmradioserver:/system/bin/fmradioserver \
 vendor/motorola/spyder/proprietary/extract-embedded-files:/system/bin/extract-embedded-files \
 vendor/motorola/spyder/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 vendor/motorola/spyder/proprietary/libmotdb.so:/system/lib/libmotdb.so \
