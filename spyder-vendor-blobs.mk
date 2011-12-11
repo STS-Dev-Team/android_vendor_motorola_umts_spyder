@@ -42,7 +42,6 @@ vendor/motorola/spyder/proprietary/hdcp-mknod:/system/bin/hdcp-mknod \
 vendor/motorola/spyder/proprietary/modemlog:/system/bin/modemlog \
 vendor/motorola/spyder/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 vendor/motorola/spyder/proprietary/napics.sh:/system/bin/napics.sh \
-vendor/motorola/spyder/proprietary/pppd-ril:/system/bin/pppd-ril \
 vendor/motorola/spyder/proprietary/rild:/system/bin/rild \
 vendor/motorola/spyder/proprietary/secclkd:/system/bin/secclkd \
 vendor/motorola/spyder/proprietary/start_enc_mgt_tool.sh:/system/bin/start_enc_mgt_tool.sh \
@@ -56,7 +55,6 @@ vendor/motorola/spyder/proprietary/tund:/system/bin/tund \
 vendor/motorola/spyder/proprietary/usbd:/system/bin/usbd \
 vendor/motorola/spyder/proprietary/whisperd:/system/bin/whisperd \
 vendor/motorola/spyder/proprietary/vpnclientpm:/system/bin/vpnclientpm \
-
 #vendor/motorola/spyder/proprietary/battd:/system/bin/battd \
 #vendor/motorola/spyder/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 #vendor/motorola/spyder/proprietary/dlnasrv:/system/bin/dlnasrv \
