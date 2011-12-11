@@ -263,7 +263,7 @@ vendor/motorola/spyder/proprietary/libui3d.so:/system/lib/libui3d.so \
 vendor/motorola/spyder/proprietary/libvideoeditorlite.so:/system/lib/libvideoeditorlite.so \
 vendor/motorola/spyder/proprietary/libvorbisidec.so:/system/lib/libvorbisidec.so \
 vendor/motorola/spyder/proprietary/libvpnclient_jni.so:/system/lib/libvpnclient_jni.so \
-vendor/motorola/spyder/proprietary/libvsuite_mot_vs32_cmb103.so:/system/lib/libvsuite_mot_vs32_cmb103.so \
+vendor/motorola/spyder/proprietary/libvsuite_mot_vs40_cmb.so:/system/lib/libvsuite_mot_vs40_cmb.so \
 vendor/motorola/spyder/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
 vendor/motorola/spyder/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 vendor/motorola/spyder/proprietary/libXmp_jni.so:/system/lib/libXmp_jni.so \
