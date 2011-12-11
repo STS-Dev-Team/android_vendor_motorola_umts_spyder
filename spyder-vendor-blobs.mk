@@ -254,7 +254,6 @@ vendor/motorola/spyder/proprietary/libril.so:/system/lib/libril.so \
 vendor/motorola/spyder/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 vendor/motorola/spyder/proprietary/libscalado.so:/system/lib/libscalado.so \
 vendor/motorola/spyder/proprietary/libsmapi.so:/system/lib/libsmapi.so \
-vendor/motorola/spyder/proprietary/libspellingcheckengine.so:/system/lib/libspellingcheckengine.so \
 vendor/motorola/spyder/proprietary/libssmgr.so:/system/lib/libssmgr.so \
 vendor/motorola/spyder/proprietary/libtexture_mem.so:/system/lib/libtexture_mem.so \
 vendor/motorola/spyder/proprietary/libtf_crypto_sst.so:/system/lib/libtf_crypto_sst.so \
@@ -262,7 +261,6 @@ vendor/motorola/spyder/proprietary/libtpa.so:/system/lib/libtpa.so \
 vendor/motorola/spyder/proprietary/libtpa_core.so:/system/lib/libtpa_core.so \
 vendor/motorola/spyder/proprietary/libui3d.so:/system/lib/libui3d.so \
 vendor/motorola/spyder/proprietary/libvideoeditorlite.so:/system/lib/libvideoeditorlite.so \
-vendor/motorola/spyder/proprietary/libvoicesearch.so:/system/lib/libvoicesearch.so \
 vendor/motorola/spyder/proprietary/libvorbisenc.so:/system/lib/libvorbisenc.so \
 vendor/motorola/spyder/proprietary/libvpnclient_jni.so:/system/lib/libvpnclient_jni.so \
 vendor/motorola/spyder/proprietary/libvsuite_mot_vs32_cmb103.so:/system/lib/libvsuite_mot_vs32_cmb103.so \
