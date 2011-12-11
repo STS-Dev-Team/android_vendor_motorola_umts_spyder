@@ -209,10 +209,8 @@ vendor/motorola/spyder/proprietary/libexempi.so:/system/lib/libexempi.so \
 vendor/motorola/spyder/proprietary/libextdisp.so:/system/lib/libextdisp.so \
 vendor/motorola/spyder/proprietary/libfmchr.so:/system/lib/libfmchr.so \
 vendor/motorola/spyder/proprietary/libfm_stack.so:/system/lib/libfm_stack.so \
-vendor/motorola/spyder/proprietary/libgdx.so:/system/lib/libgdx.so \
 vendor/motorola/spyder/proprietary/libhdcp.so:/system/lib/libhdcp.so \
 vendor/motorola/spyder/proprietary/libhdmi.so:/system/lib/libhdmi.so \
-vendor/motorola/spyder/proprietary/libhdr_interface.so:/system/lib/libhdr_interface.so \
 vendor/motorola/spyder/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/motorola/spyder/proprietary/libimage_jni.so:/system/lib/libimage_jni.so \
 vendor/motorola/spyder/proprietary/libipsec.so:/system/lib/libipsec.so \
