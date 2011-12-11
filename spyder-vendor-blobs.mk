@@ -35,7 +35,6 @@ vendor/motorola/spyder/proprietary/dund:/system/bin/dund \
 vendor/motorola/spyder/proprietary/ecckeyd:/system/bin/ecckeyd \
 vendor/motorola/spyder/proprietary/enable_mdm_usb_suspend.sh:/system/bin/enable_mdm_usb_suspend.sh \
 vendor/motorola/spyder/proprietary/enc_mgt_tool:/system/bin/enc_mgt_tool \
-vendor/motorola/spyder/proprietary/encryption_test:/system/bin/encryption_test \
 vendor/motorola/spyder/proprietary/fbread:/system/bin/fbread \
 vendor/motorola/spyder/proprietary/ftmipcd:/system/bin/ftmipcd \
 vendor/motorola/spyder/proprietary/gkilogd:/system/bin/gkilogd \
@@ -87,7 +86,6 @@ vendor/motorola/spyder/proprietary/opl.dat.enc:/system/etc/opl.dat.enc \
 vendor/motorola/spyder/proprietary/priority_notifications_config.xml:/system/etc/priority_notifications_config.xml \
 vendor/motorola/spyder/proprietary/pvplayer.cfg:/system/etc/pvplayer.cfg \
 vendor/motorola/spyder/proprietary/supportedlocales.conf:/system/etc/supportedlocales.conf \
-vendor/motorola/spyder/proprietary/dbus.conf:/system/etc/dbus.conf \
 vendor/motorola/spyder/proprietary/smc_android_cfg.ini:/system/etc/smc_android_cfg.ini \
 vendor/motorola/spyder/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
 vendor/motorola/spyder/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
