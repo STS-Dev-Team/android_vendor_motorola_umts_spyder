@@ -44,7 +44,6 @@ vendor/motorola/spyder/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 vendor/motorola/spyder/proprietary/napics.sh:/system/bin/napics.sh \
 vendor/motorola/spyder/proprietary/rild:/system/bin/rild \
 vendor/motorola/spyder/proprietary/secclkd:/system/bin/secclkd \
-vendor/motorola/spyder/proprietary/start_enc_mgt_tool.sh:/system/bin/start_enc_mgt_tool.sh \
 vendor/motorola/spyder/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
 vendor/motorola/spyder/proprietary/tcmd:/system/bin/tcmd \
 vendor/motorola/spyder/proprietary/tcmdhelp:/system/bin/tcmdhelp \
