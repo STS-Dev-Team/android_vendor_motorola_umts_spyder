@@ -39,7 +39,6 @@ vendor/motorola/spyder/proprietary/fbread:/system/bin/fbread \
 vendor/motorola/spyder/proprietary/ftmipcd:/system/bin/ftmipcd \
 vendor/motorola/spyder/proprietary/gkilogd:/system/bin/gkilogd \
 vendor/motorola/spyder/proprietary/hdcp-mknod:/system/bin/hdcp-mknod \
-vendor/motorola/spyder/proprietary/mdm_panicd:/system/bin/mdm_panicd \
 vendor/motorola/spyder/proprietary/modemlog:/system/bin/modemlog \
 vendor/motorola/spyder/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 vendor/motorola/spyder/proprietary/napics.sh:/system/bin/napics.sh \
