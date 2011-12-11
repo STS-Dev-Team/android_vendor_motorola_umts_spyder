@@ -261,7 +261,7 @@ vendor/motorola/spyder/proprietary/libtpa.so:/system/lib/libtpa.so \
 vendor/motorola/spyder/proprietary/libtpa_core.so:/system/lib/libtpa_core.so \
 vendor/motorola/spyder/proprietary/libui3d.so:/system/lib/libui3d.so \
 vendor/motorola/spyder/proprietary/libvideoeditorlite.so:/system/lib/libvideoeditorlite.so \
-vendor/motorola/spyder/proprietary/libvorbisenc.so:/system/lib/libvorbisenc.so \
+vendor/motorola/spyder/proprietary/libvorbisidec.so:/system/lib/libvorbisidec.so \
 vendor/motorola/spyder/proprietary/libvpnclient_jni.so:/system/lib/libvpnclient_jni.so \
 vendor/motorola/spyder/proprietary/libvsuite_mot_vs32_cmb103.so:/system/lib/libvsuite_mot_vs32_cmb103.so \
 vendor/motorola/spyder/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
