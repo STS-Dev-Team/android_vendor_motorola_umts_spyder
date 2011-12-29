@@ -42,7 +42,6 @@ vendor/motorola/spyder/proprietary/hdcp-mknod:/system/bin/hdcp-mknod \
 vendor/motorola/spyder/proprietary/modemlog:/system/bin/modemlog \
 vendor/motorola/spyder/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 vendor/motorola/spyder/proprietary/napics.sh:/system/bin/napics.sh \
-vendor/motorola/spyder/proprietary/rild:/system/bin/rild \
 vendor/motorola/spyder/proprietary/secclkd:/system/bin/secclkd \
 vendor/motorola/spyder/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
 vendor/motorola/spyder/proprietary/tcmd:/system/bin/tcmd \
@@ -249,8 +248,6 @@ vendor/motorola/spyder/proprietary/libprojectM.so:/system/lib/libprojectM.so \
 vendor/motorola/spyder/proprietary/libprovlib.so:/system/lib/libprovlib.so \
 vendor/motorola/spyder/proprietary/libquicksec.so:/system/lib/libquicksec.so \
 vendor/motorola/spyder/proprietary/librds_util.so:/system/lib/librds_util.so \
-vendor/motorola/spyder/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
-vendor/motorola/spyder/proprietary/libril.so:/system/lib/libril.so \
 vendor/motorola/spyder/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 vendor/motorola/spyder/proprietary/libscalado.so:/system/lib/libscalado.so \
 vendor/motorola/spyder/proprietary/libsmapi.so:/system/lib/libsmapi.so \
