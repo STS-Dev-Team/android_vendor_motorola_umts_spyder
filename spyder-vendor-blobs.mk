@@ -198,6 +198,9 @@ vendor/motorola/spyder/proprietary/libadkutils.so:/system/lib/libadkutils.so \
 vendor/motorola/spyder/proprietary/libamcm.so:/system/lib/libamcm.so \
 vendor/motorola/spyder/proprietary/libbattd.so:/system/lib/libbattd.so \
 vendor/motorola/spyder/proprietary/libbcbmsg.so:/system/lib/libbcbmsg.so \
+vendor/motorola/spyder/proprietary/libbt-aptx.so:/system/lib/libbt-aptx.so \
+vendor/motorola/spyder/proprietary/libbt-mp3.so:/system/lib/libbt-mp3.so \
+vendor/motorola/spyder/proprietary/libbt-mpeg12pl.so:/system/lib/libbt-mpeg12pl.so \
 vendor/motorola/spyder/proprietary/libcaps.so:/system/lib/libcaps.so \
 vendor/motorola/spyder/proprietary/libcapsjava.so:/system/lib/libcapsjava.so \
 vendor/motorola/spyder/proprietary/libdlnahttpjni.so:/system/lib/libdlnahttpjni.so \
