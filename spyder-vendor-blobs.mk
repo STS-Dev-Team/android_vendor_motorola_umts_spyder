@@ -53,8 +53,9 @@ vendor/motorola/spyder/proprietary/tund:/system/bin/tund \
 vendor/motorola/spyder/proprietary/usbd:/system/bin/usbd \
 vendor/motorola/spyder/proprietary/whisperd:/system/bin/whisperd \
 vendor/motorola/spyder/proprietary/vpnclientpm:/system/bin/vpnclientpm \
+vendor/motorola/spyder/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
+vendor/motorola/spyder/proprietary/motobox:/system/bin/motobox \
 #vendor/motorola/spyder/proprietary/battd:/system/bin/battd \
-#vendor/motorola/spyder/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 #vendor/motorola/spyder/proprietary/dlnasrv:/system/bin/dlnasrv \
 #vendor/motorola/spyder/proprietary/ip:/system/bin/ip \
 #vendor/motorola/spyder/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
@@ -81,6 +82,7 @@ vendor/motorola/spyder/proprietary/hdmiSolDefSm.gif:/system/etc/hdmiSolDefSm.gif
 vendor/motorola/spyder/proprietary/opl.dat.enc:/system/etc/opl.dat.enc \
 vendor/motorola/spyder/proprietary/priority_notifications_config.xml:/system/etc/priority_notifications_config.xml \
 vendor/motorola/spyder/proprietary/pvplayer.cfg:/system/etc/pvplayer.cfg \
+vendor/motorola/spyder/proprietary/qewl.jar:/system/etc/qewl.jar \
 vendor/motorola/spyder/proprietary/supportedlocales.conf:/system/etc/supportedlocales.conf \
 vendor/motorola/spyder/proprietary/smc_android_cfg.ini:/system/etc/smc_android_cfg.ini \
 vendor/motorola/spyder/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
@@ -212,10 +214,8 @@ vendor/motorola/spyder/proprietary/libhdcp.so:/system/lib/libhdcp.so \
 vendor/motorola/spyder/proprietary/libhdmi.so:/system/lib/libhdmi.so \
 vendor/motorola/spyder/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/motorola/spyder/proprietary/libimage_jni.so:/system/lib/libimage_jni.so \
-vendor/motorola/spyder/proprietary/libipsec.so:/system/lib/libipsec.so \
 vendor/motorola/spyder/proprietary/libjanus.so:/system/lib/libjanus.so \
 vendor/motorola/spyder/proprietary/libjni_nwp.so:/system/lib/libjni_nwp.so \
-vendor/motorola/spyder/proprietary/libjni_pinyinime.so:/system/lib/libjni_pinyinime.so \
 vendor/motorola/spyder/proprietary/libkpilogger.so:/system/lib/libkpilogger.so \
 vendor/motorola/spyder/proprietary/libmetainfo.so:/system/lib/libmetainfo.so \
 vendor/motorola/spyder/proprietary/libmirror.so:/system/lib/libmirror.so \
@@ -283,7 +283,10 @@ vendor/motorola/spyder/proprietary/libims_client_jni.so:/system/lib/libims_clien
 vendor/motorola/spyder/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/spyder/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/spyder/proprietary/libportaljni.so:/system/lib/libportaljni.so \
+vendor/motorola/spyder/proprietary/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
+vendor/motorola/spyder/proprietary/suplcerts.bks:system/etc/security/suplcerts.bks \
 
+#vendor/motorola/spyder/proprietary/libipsec.so:/system/lib/libipsec.so \
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/Notify_MPUSYS_reroute_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_reroute_Test_Core0.xem3 \
