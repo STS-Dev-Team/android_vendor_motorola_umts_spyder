@@ -41,6 +41,7 @@ vendor/motorola/spyder/proprietary/gkilogd:/system/bin/gkilogd \
 vendor/motorola/spyder/proprietary/hdcp-mknod:/system/bin/hdcp-mknod \
 vendor/motorola/spyder/proprietary/modemlog:/system/bin/modemlog \
 vendor/motorola/spyder/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
+vendor/motorola/spyder/proprietary/msp430:/system/bin/msp430 \
 vendor/motorola/spyder/proprietary/napics.sh:/system/bin/napics.sh \
 vendor/motorola/spyder/proprietary/secclkd:/system/bin/secclkd \
 vendor/motorola/spyder/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
@@ -88,6 +89,8 @@ vendor/motorola/spyder/proprietary/smc_android_cfg.ini:/system/etc/smc_android_c
 vendor/motorola/spyder/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
 vendor/motorola/spyder/proprietary/smc_pa_pk_4_8Mb_ipa.bin:/system/etc/smc_pa_pk_4_8Mb_ipa.bin \
 vendor/motorola/spyder/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
+vendor/motorola/spyder/proprietary/mspfirmware.bin:/system/etc/mspfirmware/mspfirmware.bin \
+vendor/motorola/spyder/proprietary/version.txt:/system/etc/mspfirmware/version.txt \
 
 #vendor/motorola/spyder/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
 
