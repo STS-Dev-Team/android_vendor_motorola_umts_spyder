@@ -16,6 +16,13 @@
 
 # All the blobs necessary for spyder
 
+#bootclasspath jars
+PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/com.motorola.android.frameworks.jar:/system/framework/com.motorola.android.frameworks.jar \
+vendor/motorola/spyder/proprietary/com.motorola.android.widget.jar:/system/framework/com.motorola.android.widget.jar \
+vendor/motorola/spyder/proprietary/com.motorola.device.jar:/system/framework/com.motorola.device.jar \
+vendor/motorola/spyder/proprietary/com.orange.authentication.simcard.jar:/system/framework/com.orange.authentication.simcard.jar \
+
 # system/bin
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/Hostapd:/system/bin/Hostapd \
