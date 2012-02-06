@@ -57,7 +57,6 @@ vendor/motorola/spyder/proprietary/tcmdhelp:/system/bin/tcmdhelp \
 vendor/motorola/spyder/proprietary/testpppd:/system/bin/testpppd \
 vendor/motorola/spyder/proprietary/tiap_loader:/system/bin/tiap_loader \
 vendor/motorola/spyder/proprietary/tty2ttyd:/system/bin/tty2ttyd \
-vendor/motorola/spyder/proprietary/tund:/system/bin/tund \
 vendor/motorola/spyder/proprietary/usbd:/system/bin/usbd \
 vendor/motorola/spyder/proprietary/whisperd:/system/bin/whisperd \
 vendor/motorola/spyder/proprietary/vpnclientpm:/system/bin/vpnclientpm \
@@ -73,6 +72,7 @@ vendor/motorola/spyder/proprietary/motobox:/system/bin/motobox \
 #vendor/motorola/spyder/proprietary/tf_daemon:/system/bin/tf_daemon \
 #vendor/motorola/spyder/proprietary/tstmetainfo:/system/bin/tstmetainfo \
 #vendor/motorola/spyder/proprietary/vold:/system/bin/vold \
+#vendor/motorola/spyder/proprietary/tund:/system/bin/tund \
 
 
 # system/etc
