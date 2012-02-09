@@ -17,16 +17,16 @@
 # All the blobs necessary for spyder
 
 #bootclasspath jars
-PRODUCT_COPY_FILES += \
-vendor/motorola/spyder/proprietary/com.motorola.android.frameworks.jar:/system/framework/com.motorola.android.frameworks.jar \
-vendor/motorola/spyder/proprietary/com.motorola.android.widget.jar:/system/framework/com.motorola.android.widget.jar \
-vendor/motorola/spyder/proprietary/com.motorola.device.jar:/system/framework/com.motorola.device.jar \
-vendor/motorola/spyder/proprietary/com.orange.authentication.simcard.jar:/system/framework/com.orange.authentication.simcard.jar \
+#PRODUCT_COPY_FILES += \
+#vendor/motorola/spyder/proprietary/com.motorola.android.frameworks.jar:/system/framework/com.motorola.android.frameworks.jar \
+#vendor/motorola/spyder/proprietary/com.motorola.android.widget.jar:/system/framework/com.motorola.android.widget.jar \
+#vendor/motorola/spyder/proprietary/com.motorola.device.jar:/system/framework/com.motorola.device.jar \
+#vendor/motorola/spyder/proprietary/com.orange.authentication.simcard.jar:/system/framework/com.orange.authentication.simcard.jar \
 
 # system/bin
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/Hostapd:/system/bin/Hostapd \
-vendor/motorola/spyder/proprietary/akmd2:/system/bin/akmd2 \
+vendor/motorola/spyder/proprietary/akmd8975:/system/bin/akmd8975 \
 vendor/motorola/spyder/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
 vendor/motorola/spyder/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
 vendor/motorola/spyder/proprietary/batch:/system/bin/batch \
