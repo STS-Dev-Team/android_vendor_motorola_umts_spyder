@@ -200,3 +200,4 @@
 1000300 kpi_marker (time|2|3)
 1000301 dc_mm (media_info|3)
 1000310 dc_kbd (kbd_event|1), (kbdActiveTime|2), (key_count|1), (alphanumeric_count|1), (key_entry_rate|2), (special_char|3)
+1000313 dc_autocmpl (autocomplete_enabled|1)

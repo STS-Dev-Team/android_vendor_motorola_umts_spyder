@@ -10,6 +10,8 @@ umask 003
 
 mkdir $DATA_HASH_DIR
 
+sleep 2
+
 for file in `ls $PRELOAD_APP_DIR`; do
     echo "$file: comparing $PRELOAD_HASH_DIR/$file.md5 and $DATA_HASH_DIR/$file.md5"
     echo "$file: comparing $PRELOAD_HASH_DIR/$file.md5 and $DATA_HASH_DIR/$file.md5" >> $PRELOAD_LOG_FILE

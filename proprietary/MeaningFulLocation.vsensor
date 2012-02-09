@@ -2,7 +2,7 @@
 
 <VirtualSensor name ="com.motorola.virtualsensor.Meaningfullocation"
                persistenceSensor = "persist_forever"
-               persistenceValue = "persist_forever"
+               persistenceValue = "persist_reboot"
                vendor = "Motorola"
                version = "1.0"
                description = "Meaningfullocation sensor detects Location" >
@@ -10,7 +10,7 @@
         <initialValue value="{null}" />
 
         <permissions clean="true">
-           <perm name = "com.motorola.virtualsensor.Meaningfullocation" />
+           <perm name = "com.motorola.virtualsensor.MEANINGFUL_LOCATION" />
         </permissions>
 
         <mechanism value = "rules" />
