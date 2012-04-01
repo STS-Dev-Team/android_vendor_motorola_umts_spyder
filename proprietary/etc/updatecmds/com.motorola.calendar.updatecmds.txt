@@ -1,0 +1,3 @@
+# Migrate data from the old pacakge name to new
+com.motorola.calendar:com.android.calendar
+    shared_prefs

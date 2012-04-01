@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<!-- RW permissions to local battd socket owned by group 'mot_accy'  -->
+    <permission name="com.motorola.android.permission.PORTALAPP_LOCAL" >
+        <group gid="mot_accy" />
+        <!--group gid="input"/>  < permission needed to access /dev/input/event* (touchscreen) -->
+    </permission>
+</permissions>            

@@ -1,0 +1,24 @@
+#
+#  Pattern may contain '*' and '?'. The tool have greedy pattern matching alghorythm.
+#
+#  Examples:
+#  *.so
+#  /data/data/*adobe*/*
+#  /data/data/*/databases/*.db
+#
+:email
+/data/data/com.motorola.motoemail/databases/*.db
+/data/data/com.motorola.motoemail/databases/*.db_att/*
+/data/data/com.motorola.motoemail/files/*
+/data/data/com.motorola.blur.service.email/databases/email.db
+/data/data/com.motorola.blur.service.email/databases/searchindex*.db
+/data/data/com.motorola.blur.service.email/files/*
+:contacts
+/data/data/com.motorola.blur.providers.contacts/databases/*.db
+/data/data/com.android.providers.contacts/databases/*.db
+:calendar
+/data/data/com.android.providers.calendar/databases/*.db
+# list of patterns for file, which does not have any proprietary data and 
+# should not be stored in encrypted form to avoid impact on performance.
+:do_not_encrypt
+*.so

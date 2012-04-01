@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<!-- RW permissions to hidraw owned by group 'mot_whisper'  -->
+    <permission name="com.motorola.android.permission.DOCKCOMM_LOCAL" >
+        <group gid="mot_whisper"/>
+    </permission>
+</permissions>            

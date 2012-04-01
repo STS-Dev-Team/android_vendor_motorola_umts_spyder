@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="zip4j-1.2.5"
+        file="/system/framework/zip4j-1.2.5.jar"/>
+</permissions>
