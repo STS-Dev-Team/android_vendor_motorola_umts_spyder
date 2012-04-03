@@ -103,7 +103,7 @@ vendor/motorola/spyder/proprietary/SEN2_EE.cfg:/system/etc/omapcam/SEN2_EE.cfg \
 
 # copy all camera bin's
 PRODUCT_COPY_FILES += $(shell \
-    find vendor/miui/system/etc/omapcam/module1.bak -name '*.bin' \
+    find vendor/motorola/spyder/proprietary/etc/omapcam/module1.bak -name '*.bin' \
     | sed -r 's/^\/?(.*\/)([^/ ]+)$$/\1\2:system\/etc\/omapcam\/module1.back\/\2/' \
     | tr '\n' ' ')
 
