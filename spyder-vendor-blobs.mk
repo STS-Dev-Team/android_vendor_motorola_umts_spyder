@@ -44,6 +44,8 @@ vendor/motorola/spyder/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
 vendor/motorola/spyder/proprietary/bin/hostapd:/system/bin/hostapd \
 vendor/motorola/spyder/proprietary/bin/JuniperVPNTools:/system/bin/JuniperVPNTools \
 vendor/motorola/spyder/proprietary/bin/libthermal-manager.cfg:/system/bin/libthermal-manager.cfg \
+vendor/motorola/spyder/proprietary/bin/logcatd:/system/bin/logcatd \
+vendor/motorola/spyder/proprietary/bin/logcatd-blan:/system/bin/logcatd-blan \
 vendor/motorola/spyder/proprietary/bin/modemlog:/system/bin/modemlog \
 vendor/motorola/spyder/proprietary/bin/mot_boot_mode:/system/bin/mot_boot_mode \
 vendor/motorola/spyder/proprietary/bin/motobox:/system/bin/motobox \
@@ -192,16 +194,24 @@ vendor/motorola/spyder/proprietary/lib/libbcbmsg.so:/system/lib/libbcbmsg.so \
 vendor/motorola/spyder/proprietary/lib/libbt-aptx.so:/system/lib/libbt-aptx.so \
 vendor/motorola/spyder/proprietary/lib/libcaps.so:/system/lib/libcaps.so \
 vendor/motorola/spyder/proprietary/lib/libcapsjava.so:/system/lib/libcapsjava.so \
+vendor/motorola/spyder/proprietary/lib/libdataencrypt.so:/system/lib/libdataencrypt.so \
+vendor/motorola/spyder/proprietary/lib/libdataencrypt_tpa.so:/system/lib/libdataencrypt_tpa.so \
+vendor/motorola/spyder/proprietary/lib/libdataencrypt_utils.so:/system/lib/libdataencrypt_utils.so \
+vendor/motorola/spyder/proprietary/lib/libdevicestats.so:/system/lib/libdevicestats.so \
 vendor/motorola/spyder/proprietary/lib/libdlnahttpjni.so:/system/lib/libdlnahttpjni.so \
 vendor/motorola/spyder/proprietary/lib/libdlnajni.so:/system/lib/libdlnajni.so \
 vendor/motorola/spyder/proprietary/lib/libdlnaprofileparser.so:/system/lib/libdlnaprofileparser.so \
 vendor/motorola/spyder/proprietary/lib/libdlnasysjni.so:/system/lib/libdlnasysjni.so \
 vendor/motorola/spyder/proprietary/lib/libdmengine.so:/system/lib/libdmengine.so \
 vendor/motorola/spyder/proprietary/lib/libdmjavaplugin.so:/system/lib/libdmjavaplugin.so \
+vendor/motorola/spyder/proprietary/lib/libdockcommjni.so:/system/lib/libdockcommjni.so \
+vendor/motorola/spyder/proprietary/lib/libevbridge.so:/system/lib/libevbridge.so \
 vendor/motorola/spyder/proprietary/lib/libexempi.so:/system/lib/libexempi.so \
 vendor/motorola/spyder/proprietary/lib/libextdispjni.so:/system/lib/libextdispjni.so \
 vendor/motorola/spyder/proprietary/lib/libhdcp.so:/system/lib/libhdcp.so \
 vendor/motorola/spyder/proprietary/lib/libhdmi.so:/system/lib/libhdmi.so \
+vendor/motorola/spyder/proprietary/lib/libhelixmediaplayerjni_ics.so:/system/lib/libhelixmediaplayerjni_ics.so \
+vendor/motorola/spyder/proprietary/lib/libhelixplayerndk_ics.so:/system/lib/libhelixplayerndk_icsi.so \
 vendor/motorola/spyder/proprietary/lib/libimage_jni.so:/system/lib/libimage_jni.so \
 vendor/motorola/spyder/proprietary/lib/libjni_nwp.so:/system/lib/libjni_nwp.so \
 vendor/motorola/spyder/proprietary/lib/libmetainfo.so:/system/lib/libmetainfo.so \
@@ -212,11 +222,13 @@ vendor/motorola/spyder/proprietary/lib/libmotdrm1_jni.so:/system/lib/libmotdrm1_
 vendor/motorola/spyder/proprietary/lib/libmotodbgutils.so:/system/lib/libmotodbgutils.so \
 vendor/motorola/spyder/proprietary/lib/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
 vendor/motorola/spyder/proprietary/lib/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
+vendor/motorola/spyder/proprietary/lib/libmss.so:/system/lib/libmss.so \
 vendor/motorola/spyder/proprietary/lib/libnativedrm1.so:/system/lib/libnativedrm1.so \
 vendor/motorola/spyder/proprietary/lib/libnbgm.so:/system/lib/libnbgm.so \
 vendor/motorola/spyder/proprietary/lib/libnmea.so:/system/lib/libnmea.so \
 vendor/motorola/spyder/proprietary/lib/libpanorama.so:/system/lib/libpanorama.so \
 vendor/motorola/spyder/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
+vendor/motorola/spyder/proprietary/lib/libpgmjni.so:/system/lib/libpgmjni.so \
 vendor/motorola/spyder/proprietary/lib/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
 vendor/motorola/spyder/proprietary/lib/libphotoflow.so:/system/lib/libphotoflow.so \
 vendor/motorola/spyder/proprietary/lib/libpkip.so:/system/lib/libpkip.so \
@@ -230,7 +242,7 @@ vendor/motorola/spyder/proprietary/lib/libscalado.so:/system/lib/libscalado.so \
 vendor/motorola/spyder/proprietary/lib/libsensorhub_jni.so:/system/lib/libsensorhub_jni.so \
 vendor/motorola/spyder/proprietary/lib/libsmapi.so:/system/lib/libsmapi.so \
 vendor/motorola/spyder/proprietary/lib/libtf_crypto_sst.so:/system/lib/libtf_crypto_sst.so \
-vendor/motorola/spyder/proprietary/lib/libthermal_config.so:/system/lib/llibthermal_config.so \
+vendor/motorola/spyder/proprietary/lib/libthermal_config.so:/system/lib/libthermal_config.so \
 vendor/motorola/spyder/proprietary/lib/libthermal_manager.so:/system/lib/libthermal_manager.so \
 vendor/motorola/spyder/proprietary/lib/libtpa.so:/system/lib/libtpa.so \
 vendor/motorola/spyder/proprietary/lib/libtpa_core.so:/system/lib/libtpa_core.so \
@@ -241,11 +253,26 @@ vendor/motorola/spyder/proprietary/lib/libvpnclient_jni.so:/system/lib/libvpncli
 vendor/motorola/spyder/proprietary/lib/libvsuite_mot_vs40_cmb.so:/system/lib/libvsuite_mot_vs40_cmb.so \
 vendor/motorola/spyder/proprietary/lib/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
 vendor/motorola/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
+vendor/motorola/spyder/proprietary/lib/libWVphoneAPI.so:/system/libWVphoneAPI.so \
 vendor/motorola/spyder/proprietary/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/spyder/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 vendor/motorola/spyder/proprietary/lib/egl/egl.cfg:/system/lib/egl/egl.cfg \
 vendor/motorola/spyder/proprietary/lib/egl/libGLES_android.so:/system/lib/egl/libGLES_android.so \
-
+vendor/motorola/spyder/proprietary/lib/helixndk/libavc1.so:/system/lib/helixndk/libavc1.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libavcm.so:/system/lib/helixndk/libavcm.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libdeviceid_jni.so:/system/lib/helixndk/libdeviceid_jni.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libhttpfsys.so:/system/lib/helixndk/libhttpfsys.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libhttplivefformat.so:/system/lib/helixndk/libhttplivefformat.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libhxmedpltfm.so:/system/lib/helixndk/libhxmedpltfm.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libhxmedplyeng.so:/system/lib/helixndk/libhxmedplyeng.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libhxnetwksvc.so:/system/lib/helixndk/libhxnetwksvc.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libmp4arender.so:/system/lib/helixndk/libmp4arender.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libmp4vrender.so:/system/lib/helixndk/libmp4vrender.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libraac.so:/system/lib/helixndk/libraac.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libramfformat.so:/system/lib/helixndk/libramfformat.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libramrender.so:/system/lib/helixndk/.libramrenderso \
+vendor/motorola/spyder/proprietary/lib/helixndk/libtsfformat.so:/system/lib/helixndk/libtsfformat.so \
+vendor/motorola/spyder/proprietary/lib/helixndk/libvidsite_ics.so:/system/lib/helixndk/libvidsite_ics.so \
 
 # RIL files
 PRODUCT_COPY_FILES += \
@@ -289,6 +316,7 @@ vendor/motorola/spyder/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:/
 vendor/motorola/spyder/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
 vendor/motorola/spyder/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
 vendor/motorola/spyder/proprietary/vendor/lib/hw/gralloc.omap4.so:/system/vendor/lib/hw/gralloc.omap4.so \
+vendor/motorola/spyder/proprietary/vendor/lib/hw/hwcomposer.omap4.so:/system/vendor/lib/hw/hwcomposer.omap4.so \
 vendor/motorola/spyder/proprietary/vendor/lib/libglslcompiler_SGX540_120.so:/system/vendor/lib/libglslcompiler_SGX540_120.so \
 vendor/motorola/spyder/proprietary/vendor/lib/libIMGegl_SGX540_120.so:/system/vendor/lib/libIMGegl_SGX540_120.so \
 vendor/motorola/spyder/proprietary/vendor/lib/libpvr2d_SGX540_120.so:/system/vendor/lib/libpvr2d_SGX540_120.so \
