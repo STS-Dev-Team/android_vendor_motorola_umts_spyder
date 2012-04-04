@@ -270,7 +270,7 @@ vendor/motorola/spyder/proprietary/lib/helixndk/libmp4arender.so:/system/lib/hel
 vendor/motorola/spyder/proprietary/lib/helixndk/libmp4vrender.so:/system/lib/helixndk/libmp4vrender.so \
 vendor/motorola/spyder/proprietary/lib/helixndk/libraac.so:/system/lib/helixndk/libraac.so \
 vendor/motorola/spyder/proprietary/lib/helixndk/libramfformat.so:/system/lib/helixndk/libramfformat.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libramrender.so:/system/lib/helixndk/.libramrenderso \
+vendor/motorola/spyder/proprietary/lib/helixndk/libramrender.so:/system/lib/helixndk/libramrender.so \
 vendor/motorola/spyder/proprietary/lib/helixndk/libtsfformat.so:/system/lib/helixndk/libtsfformat.so \
 vendor/motorola/spyder/proprietary/lib/helixndk/libvidsite_ics.so:/system/lib/helixndk/libvidsite_ics.so \
 
