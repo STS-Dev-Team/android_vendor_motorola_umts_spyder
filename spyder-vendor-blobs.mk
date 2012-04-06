@@ -256,8 +256,6 @@ vendor/motorola/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiA
 vendor/motorola/spyder/proprietary/lib/libWVphoneAPI.so:/system/libWVphoneAPI.so \
 vendor/motorola/spyder/proprietary/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/spyder/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
-vendor/motorola/spyder/proprietary/lib/egl/egl.cfg:/system/lib/egl/egl.cfg \
-vendor/motorola/spyder/proprietary/lib/egl/libGLES_android.so:/system/lib/egl/libGLES_android.so \
 vendor/motorola/spyder/proprietary/lib/helixndk/libavc1.so:/system/lib/helixndk/libavc1.so \
 vendor/motorola/spyder/proprietary/lib/helixndk/libavcm.so:/system/lib/helixndk/libavcm.so \
 vendor/motorola/spyder/proprietary/lib/helixndk/libdeviceid_jni.so:/system/lib/helixndk/libdeviceid_jni.so \
