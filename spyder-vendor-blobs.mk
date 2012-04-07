@@ -248,7 +248,6 @@ vendor/motorola/spyder/proprietary/lib/libtpa.so:/system/lib/libtpa.so \
 vendor/motorola/spyder/proprietary/lib/libtpa_core.so:/system/lib/libtpa_core.so \
 vendor/motorola/spyder/proprietary/lib/libui3d.so:/system/lib/libui3d.so \
 vendor/motorola/spyder/proprietary/lib/libvideoeditorlite.so:/system/lib/libvideoeditorlite.so \
-vendor/motorola/spyder/proprietary/lib/libvorbisidec.so:/system/lib/libvorbisidec.so \
 vendor/motorola/spyder/proprietary/lib/libvpnclient_jni.so:/system/lib/libvpnclient_jni.so \
 vendor/motorola/spyder/proprietary/lib/libvsuite_mot_vs40_cmb.so:/system/lib/libvsuite_mot_vs40_cmb.so \
 vendor/motorola/spyder/proprietary/lib/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
@@ -272,6 +271,7 @@ vendor/motorola/spyder/proprietary/lib/helixndk/libramrender.so:/system/lib/heli
 vendor/motorola/spyder/proprietary/lib/helixndk/libtsfformat.so:/system/lib/helixndk/libtsfformat.so \
 vendor/motorola/spyder/proprietary/lib/helixndk/libvidsite_ics.so:/system/lib/helixndk/libvidsite_ics.so \
 
+#vendor/motorola/spyder/proprietary/lib/libvorbisidec.so:/system/lib/libvorbisidec.so \
 # RIL files
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/bin/base64:/system/bin/base64 \
