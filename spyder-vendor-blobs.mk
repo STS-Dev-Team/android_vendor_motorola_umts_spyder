@@ -162,6 +162,10 @@ vendor/motorola/spyder/proprietary/etc/wifi/wlan_fem.ini:/system/etc/wifi/wlan_f
 vendor/motorola/spyder/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
 vendor/motorola/spyder/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
 vendor/motorola/spyder/proprietary/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
+vendor/motorola/spyder/proprietary/etc/permissions/com.motorola.android.tcmd.xml:system/etc/permissions/com.motorola.android.tcmd.xml \
+vendor/motorola/spyder/proprietary/etc/permissions/com.motorola.android.tpapiconfig.xml:system/etc/permissions/com.motorola.android.tpapiconfig.xml \
+vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
+vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
 
 # system/usr
 PRODUCT_COPY_FILES += \
