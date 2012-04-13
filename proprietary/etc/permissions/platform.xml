@@ -182,6 +182,12 @@
     <!-- This is a list of all the libraries available for application
          code to link against. -->
 
+    <!-- Moto: This is a list of Motorola specific libraries available for application
+         code to link against. -->
+    <library name="com.motorola.android.frameworks"
+             file="/system/framework/com.motorola.android.frameworks.jar" />
+    <library name="com.motorola.android.telephony"
+             file="/system/framework/com.motorola.android.telephony.jar" />
     <library name="android.test.runner"
             file="/system/framework/android.test.runner.jar" />
     <library name="javax.obex"
