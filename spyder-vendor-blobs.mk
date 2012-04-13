@@ -162,8 +162,6 @@ vendor/motorola/spyder/proprietary/etc/wifi/wlan_fem.ini:/system/etc/wifi/wlan_f
 vendor/motorola/spyder/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
 vendor/motorola/spyder/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
 vendor/motorola/spyder/proprietary/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
-vendor/motorola/spyder/proprietary/etc/permissions/com.motorola.android.tcmd.xml:system/etc/permissions/com.motorola.android.tcmd.xml \
-vendor/motorola/spyder/proprietary/etc/permissions/com.motorola.android.tpapiconfig.xml:system/etc/permissions/com.motorola.android.tpapiconfig.xml \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
 
@@ -232,7 +230,6 @@ vendor/motorola/spyder/proprietary/lib/libnbgm.so:/system/lib/libnbgm.so \
 vendor/motorola/spyder/proprietary/lib/libnmea.so:/system/lib/libnmea.so \
 vendor/motorola/spyder/proprietary/lib/libpanorama.so:/system/lib/libpanorama.so \
 vendor/motorola/spyder/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
-vendor/motorola/spyder/proprietary/lib/libpgmjni.so:/system/lib/libpgmjni.so \
 vendor/motorola/spyder/proprietary/lib/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
 vendor/motorola/spyder/proprietary/lib/libphotoflow.so:/system/lib/libphotoflow.so \
 vendor/motorola/spyder/proprietary/lib/libpkip.so:/system/lib/libpkip.so \
@@ -275,6 +272,7 @@ vendor/motorola/spyder/proprietary/lib/helixndk/libramrender.so:/system/lib/heli
 vendor/motorola/spyder/proprietary/lib/helixndk/libtsfformat.so:/system/lib/helixndk/libtsfformat.so \
 vendor/motorola/spyder/proprietary/lib/helixndk/libvidsite_ics.so:/system/lib/helixndk/libvidsite_ics.so \
 
+#vendor/motorola/spyder/proprietary/lib/libpgmjni.so:/system/lib/libpgmjni.so \
 #vendor/motorola/spyder/proprietary/lib/libvorbisidec.so:/system/lib/libvorbisidec.so \
 # RIL files
 PRODUCT_COPY_FILES += \
