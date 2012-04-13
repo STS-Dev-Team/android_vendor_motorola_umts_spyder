@@ -83,11 +83,11 @@ vendor/motorola/spyder/proprietary/etc/supportedlocales.conf:/system/etc/support
 vendor/motorola/spyder/proprietary/etc/mspfirmware/mspfirmware.bin:/system/etc/mspfirmware/mspfirmware.bin \
 vendor/motorola/spyder/proprietary/etc/mspfirmware/version.txt:/system/etc/mspfirmware/version.txt \
 
-#vendor/motorola/spyder/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
 #vendor/motorola/spyder/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
 
 # system/etc/(others)
 PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl12xx-upd-nvs.bin:/system/etc/firmware/ti-connectivity/wl12xx-upd-nvs.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
