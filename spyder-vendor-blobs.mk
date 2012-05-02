@@ -306,6 +306,8 @@ vendor/motorola/spyder/proprietary/lib/hw/sensorhub.spyder.so:/system/lib/hw/sen
 # system/xbin
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_test \
+vendor/motorola/spyder/proprietary/xbin/dexdump:/system/xbin/dexdump \
+vendor/motorola/spyder/proprietary/xbin/nc:/system/xbin/nc \
 
 # system/vendor
 PRODUCT_COPY_FILES += \
