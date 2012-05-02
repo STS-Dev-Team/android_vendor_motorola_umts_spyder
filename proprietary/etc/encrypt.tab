@@ -9,7 +9,6 @@
 :email
 /data/data/com.motorola.motoemail/databases/*.db
 /data/data/com.motorola.motoemail/databases/*.db_att/*
-/data/data/com.motorola.motoemail/files/*
 /data/data/com.motorola.blur.service.email/databases/email.db
 /data/data/com.motorola.blur.service.email/databases/searchindex*.db
 /data/data/com.motorola.blur.service.email/files/*

@@ -420,8 +420,8 @@ main(){
                 0)
                     case $buildType in
                         user)
-                            case $(/system/bin/getprop persist.service.adb.enable) in
-                                1)
+                            case $(/system/bin/getprop init.svc.adbd) in
+                                running)
                                     b2glog v "Bug2Go.apk=N; Bug2GoLite.apk=N; UserBuild=Y; USBDebug=Y"
                                     startBug2GoLite
                                 ;;
