@@ -41,7 +41,6 @@ vendor/motorola/spyder/proprietary/bin/dund:/system/bin/dund \
 vendor/motorola/spyder/proprietary/bin/ecckeyd:/system/bin/ecckeyd \
 vendor/motorola/spyder/proprietary/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
 vendor/motorola/spyder/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
-vendor/motorola/spyder/proprietary/bin/hostapd:/system/bin/hostapd \
 vendor/motorola/spyder/proprietary/bin/JuniperVPNTools:/system/bin/JuniperVPNTools \
 vendor/motorola/spyder/proprietary/bin/libthermal-manager.cfg:/system/bin/libthermal-manager.cfg \
 vendor/motorola/spyder/proprietary/bin/logcatd:/system/bin/logcatd \
