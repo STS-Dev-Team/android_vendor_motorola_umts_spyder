@@ -297,7 +297,7 @@ vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so:/system/
 vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so \
 vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
 vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:/system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
-vendor/motorola/spyder/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so
+vendor/motorola/spyder/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
 vendor/motorola/spyder/proprietary/lib/libOMX_Core.so:/system/lib/libOMX_Core.so \
 vendor/motorola/spyder/proprietary/lib/libdomx.so:/system/lib/libdomx.so \
 vendor/motorola/spyder/proprietary/lib/libmm_osal.so:/system/lib/libmm_osal.so \
