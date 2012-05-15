@@ -246,7 +246,7 @@ vendor/motorola/spyder/proprietary/lib/libvideoeditorlite.so:/system/lib/libvide
 vendor/motorola/spyder/proprietary/lib/libvpnclient_jni.so:/system/lib/libvpnclient_jni.so \
 vendor/motorola/spyder/proprietary/lib/libvsuite_mot_vs40_cmb.so:/system/lib/libvsuite_mot_vs40_cmb.so \
 vendor/motorola/spyder/proprietary/lib/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
-vendor/motorola/spyder/proprietary/lib/libWVphoneAPI.so:/system/libWVphoneAPI.so \
+vendor/motorola/spyder/proprietary/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
 vendor/motorola/spyder/proprietary/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/spyder/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 vendor/motorola/spyder/proprietary/lib/helixndk/libavc1.so:/system/lib/helixndk/libavc1.so \
