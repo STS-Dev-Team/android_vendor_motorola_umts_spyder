@@ -266,6 +266,16 @@ vendor/motorola/spyder/proprietary/lib/helixndk/libtsfformat.so:/system/lib/heli
 vendor/motorola/spyder/proprietary/lib/helixndk/libvidsite_ics.so:/system/lib/helixndk/libvidsite_ics.so \
 vendor/motorola/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 
+# Camera files
+PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
+vendor/motorola/spyder/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
+vendor/motorola/spyder/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
+vendor/motorola/spyder/proprietary/lib/libcameraeventlog.so:/system/lib/libcameraeventlog.so \
+vendor/motorola/spyder/proprietary/lib/libtiutils.so:/system/lib/libtiutils.so \
+vendor/motorola/spyder/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
+vendor/motorola/spyder/proprietary/lib/libtiutils.so:/system/lib/libtiutils.so \
+
 #vendor/motorola/spyder/proprietary/lib/libpgmjni.so:/system/lib/libpgmjni.so \
 #vendor/motorola/spyder/proprietary/lib/libvorbisidec.so:/system/lib/libvorbisidec.so \
 # RIL files
