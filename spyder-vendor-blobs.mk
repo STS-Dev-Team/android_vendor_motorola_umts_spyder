@@ -83,7 +83,6 @@ vendor/motorola/spyder/proprietary/etc/mspfirmware/version.txt:/system/etc/mspfi
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl12xx-upd-nvs.bin:/system/etc/firmware/ti-connectivity/wl12xx-upd-nvs.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
@@ -274,7 +273,6 @@ vendor/motorola/spyder/proprietary/lib/libcameraservice.so:/system/lib/libcamera
 vendor/motorola/spyder/proprietary/lib/libcameraeventlog.so:/system/lib/libcameraeventlog.so \
 vendor/motorola/spyder/proprietary/lib/libtiutils.so:/system/lib/libtiutils.so \
 vendor/motorola/spyder/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
-vendor/motorola/spyder/proprietary/lib/libtiutils.so:/system/lib/libtiutils.so \
 
 #vendor/motorola/spyder/proprietary/lib/libpgmjni.so:/system/lib/libpgmjni.so \
 #vendor/motorola/spyder/proprietary/lib/libvorbisidec.so:/system/lib/libvorbisidec.so \
