@@ -34,7 +34,6 @@ vendor/motorola/spyder/proprietary/bin/dund:/system/bin/dund \
 vendor/motorola/spyder/proprietary/bin/ecckeyd:/system/bin/ecckeyd \
 vendor/motorola/spyder/proprietary/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
 vendor/motorola/spyder/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
-vendor/motorola/spyder/proprietary/bin/hostapd:/system/bin/hostapd \
 vendor/motorola/spyder/proprietary/bin/JuniperVPNTools:/system/bin/JuniperVPNTools \
 vendor/motorola/spyder/proprietary/bin/libthermal-manager.cfg:/system/bin/libthermal-manager.cfg \
 vendor/motorola/spyder/proprietary/bin/logcatd:/system/bin/logcatd \
@@ -55,8 +54,9 @@ vendor/motorola/spyder/proprietary/bin/usbd:/system/bin/usbd \
 vendor/motorola/spyder/proprietary/bin/whisperd:/system/bin/whisperd \
 vendor/motorola/spyder/proprietary/bin/wifiupgradecal.sh:/system/bin/wifiupgradecal.sh \
 vendor/motorola/spyder/proprietary/bin/vpnclientpm:/system/bin/vpnclientpm \
-vendor/motorola/spyder/proprietary/bin/wifical.sh:/system/bin/wifical.sh \
 
+#vendor/motorola/spyder/proprietary/bin/wifical.sh:/system/bin/wifical.sh \
+#vendor/motorola/spyder/proprietary/bin/hostapd:/system/bin/hostapd \
 #vendor/motorola/spyder/proprietary/bin/crda:/system/bin/crda \
 # system/etc
 PRODUCT_COPY_FILES += \
@@ -83,7 +83,6 @@ vendor/motorola/spyder/proprietary/etc/mspfirmware/version.txt:/system/etc/mspfi
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl12xx-upd-nvs.bin:/system/etc/firmware/ti-connectivity/wl12xx-upd-nvs.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
 vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
@@ -250,7 +249,7 @@ vendor/motorola/spyder/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 vendor/motorola/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 vendor/motorola/spyder/proprietary/lib/drm/libmotdrmplugin.so:/system/lib/drm/libmotdrmplugin.so \
 
-# Camera files	
+# Camera files
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
 vendor/motorola/spyder/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
