@@ -206,8 +206,6 @@ vendor/motorola/spyder/proprietary/lib/libexempi.so:/system/lib/libexempi.so \
 vendor/motorola/spyder/proprietary/lib/libextdispjni.so:/system/lib/libextdispjni.so \
 vendor/motorola/spyder/proprietary/lib/libhdcp.so:/system/lib/libhdcp.so \
 vendor/motorola/spyder/proprietary/lib/libhdmi.so:/system/lib/libhdmi.so \
-vendor/motorola/spyder/proprietary/lib/libhelixmediaplayerjni_ics.so:/system/lib/libhelixmediaplayerjni_ics.so \
-vendor/motorola/spyder/proprietary/lib/libhelixplayerndk_ics.so:/system/lib/libhelixplayerndk_icsi.so \
 vendor/motorola/spyder/proprietary/lib/libimage_jni.so:/system/lib/libimage_jni.so \
 vendor/motorola/spyder/proprietary/lib/libjni_nwp.so:/system/lib/libjni_nwp.so \
 vendor/motorola/spyder/proprietary/lib/libmetainfo.so:/system/lib/libmetainfo.so \
@@ -249,22 +247,17 @@ vendor/motorola/spyder/proprietary/lib/libwbxmlparser.so:/system/lib/libwbxmlpar
 vendor/motorola/spyder/proprietary/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
 vendor/motorola/spyder/proprietary/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/spyder/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libavc1.so:/system/lib/helixndk/libavc1.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libavcm.so:/system/lib/helixndk/libavcm.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libdeviceid_jni.so:/system/lib/helixndk/libdeviceid_jni.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libhttpfsys.so:/system/lib/helixndk/libhttpfsys.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libhttplivefformat.so:/system/lib/helixndk/libhttplivefformat.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libhxmedpltfm.so:/system/lib/helixndk/libhxmedpltfm.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libhxmedplyeng.so:/system/lib/helixndk/libhxmedplyeng.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libhxnetwksvc.so:/system/lib/helixndk/libhxnetwksvc.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libmp4arender.so:/system/lib/helixndk/libmp4arender.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libmp4vrender.so:/system/lib/helixndk/libmp4vrender.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libraac.so:/system/lib/helixndk/libraac.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libramfformat.so:/system/lib/helixndk/libramfformat.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libramrender.so:/system/lib/helixndk/libramrender.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libtsfformat.so:/system/lib/helixndk/libtsfformat.so \
-vendor/motorola/spyder/proprietary/lib/helixndk/libvidsite_ics.so:/system/lib/helixndk/libvidsite_ics.so \
 vendor/motorola/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
+vendor/motorola/spyder/proprietary/lib/drm/libmotdrmplugin.so:/system/lib/drm/libmotdrmplugin.so \
+
+# Camera files	
+PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
+vendor/motorola/spyder/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
+vendor/motorola/spyder/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
+vendor/motorola/spyder/proprietary/lib/libcameraeventlog.so:/system/lib/libcameraeventlog.so \
+vendor/motorola/spyder/proprietary/lib/libtiutils.so:/system/lib/libtiutils.so \
+vendor/motorola/spyder/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
 
 #vendor/motorola/spyder/proprietary/lib/libpgmjni.so:/system/lib/libpgmjni.so \
 #vendor/motorola/spyder/proprietary/lib/libvorbisidec.so:/system/lib/libvorbisidec.so \
@@ -287,7 +280,6 @@ vendor/motorola/spyder/proprietary/lib/libmoto_qmi_ril.so:/system/lib/libmoto_qm
 vendor/motorola/spyder/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
 vendor/motorola/spyder/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
 vendor/motorola/spyder/proprietary/lib/libmotdb.so:/system/lib/libmotdb.so \
-vendor/motorola/spyder/proprietary/lib/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/spyder/proprietary/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
 
 # OMX
