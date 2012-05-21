@@ -34,7 +34,6 @@ vendor/motorola/spyder/proprietary/bin/dund:/system/bin/dund \
 vendor/motorola/spyder/proprietary/bin/ecckeyd:/system/bin/ecckeyd \
 vendor/motorola/spyder/proprietary/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
 vendor/motorola/spyder/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
-vendor/motorola/spyder/proprietary/bin/hostapd:/system/bin/hostapd \
 vendor/motorola/spyder/proprietary/bin/JuniperVPNTools:/system/bin/JuniperVPNTools \
 vendor/motorola/spyder/proprietary/bin/libthermal-manager.cfg:/system/bin/libthermal-manager.cfg \
 vendor/motorola/spyder/proprietary/bin/logcatd:/system/bin/logcatd \
@@ -53,10 +52,11 @@ vendor/motorola/spyder/proprietary/bin/thermaldaemon:/system/bin/thermaldaemon \
 vendor/motorola/spyder/proprietary/bin/tty2ttyd:/system/bin/tty2ttyd \
 vendor/motorola/spyder/proprietary/bin/usbd:/system/bin/usbd \
 vendor/motorola/spyder/proprietary/bin/whisperd:/system/bin/whisperd \
-vendor/motorola/spyder/proprietary/bin/wifiupgradecal.sh:/system/bin/wifiupgradecal.sh \
 vendor/motorola/spyder/proprietary/bin/vpnclientpm:/system/bin/vpnclientpm \
-vendor/motorola/spyder/proprietary/bin/wifical.sh:/system/bin/wifical.sh \
 
+#vendor/motorola/spyder/proprietary/bin/wifiupgradecal.sh:/system/bin/wifiupgradecal.sh \
+#vendor/motorola/spyder/proprietary/bin/wifical.sh:/system/bin/wifical.sh \
+#vendor/motorola/spyder/proprietary/bin/hostapd:/system/bin/hostapd \
 #vendor/motorola/spyder/proprietary/bin/crda:/system/bin/crda \
 # system/etc
 PRODUCT_COPY_FILES += \
@@ -155,8 +155,9 @@ vendor/motorola/spyder/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/
 vendor/motorola/spyder/proprietary/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
-vendor/motorola/spyder/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
-vendor/motorola/spyder/proprietary/etc/wifi/hostapd.conf:/system/etc/wifi/hostapd.conf \
+
+#vendor/motorola/spyder/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
+#vendor/motorola/spyder/proprietary/etc/wifi/hostapd.conf:/system/etc/wifi/hostapd.conf \
 
 # system/usr
 PRODUCT_COPY_FILES += \
