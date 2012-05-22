@@ -34,7 +34,6 @@ vendor/motorola/spyder/proprietary/bin/dund:/system/bin/dund \
 vendor/motorola/spyder/proprietary/bin/ecckeyd:/system/bin/ecckeyd \
 vendor/motorola/spyder/proprietary/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
 vendor/motorola/spyder/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
-vendor/motorola/spyder/proprietary/bin/hostapd:/system/bin/hostapd \
 vendor/motorola/spyder/proprietary/bin/JuniperVPNTools:/system/bin/JuniperVPNTools \
 vendor/motorola/spyder/proprietary/bin/libthermal-manager.cfg:/system/bin/libthermal-manager.cfg \
 vendor/motorola/spyder/proprietary/bin/logcatd:/system/bin/logcatd \
@@ -53,10 +52,11 @@ vendor/motorola/spyder/proprietary/bin/thermaldaemon:/system/bin/thermaldaemon \
 vendor/motorola/spyder/proprietary/bin/tty2ttyd:/system/bin/tty2ttyd \
 vendor/motorola/spyder/proprietary/bin/usbd:/system/bin/usbd \
 vendor/motorola/spyder/proprietary/bin/whisperd:/system/bin/whisperd \
-vendor/motorola/spyder/proprietary/bin/wifiupgradecal.sh:/system/bin/wifiupgradecal.sh \
 vendor/motorola/spyder/proprietary/bin/vpnclientpm:/system/bin/vpnclientpm \
-vendor/motorola/spyder/proprietary/bin/wifical.sh:/system/bin/wifical.sh \
 
+#vendor/motorola/spyder/proprietary/bin/wifiupgradecal.sh:/system/bin/wifiupgradecal.sh \
+#vendor/motorola/spyder/proprietary/bin/wifical.sh:/system/bin/wifical.sh \
+#vendor/motorola/spyder/proprietary/bin/hostapd:/system/bin/hostapd \
 #vendor/motorola/spyder/proprietary/bin/crda:/system/bin/crda \
 # system/etc
 PRODUCT_COPY_FILES += \
@@ -156,8 +156,9 @@ vendor/motorola/spyder/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/
 vendor/motorola/spyder/proprietary/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
-vendor/motorola/spyder/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
-vendor/motorola/spyder/proprietary/etc/wifi/hostapd.conf:/system/etc/wifi/hostapd.conf \
+
+#vendor/motorola/spyder/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
+#vendor/motorola/spyder/proprietary/etc/wifi/hostapd.conf:/system/etc/wifi/hostapd.conf \
 
 # system/usr
 PRODUCT_COPY_FILES += \
@@ -227,7 +228,6 @@ vendor/motorola/spyder/proprietary/lib/libpanorama_jni.so:/system/lib/libpanoram
 vendor/motorola/spyder/proprietary/lib/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
 vendor/motorola/spyder/proprietary/lib/libphotoflow.so:/system/lib/libphotoflow.so \
 vendor/motorola/spyder/proprietary/lib/libpkip.so:/system/lib/libpkip.so \
-vendor/motorola/spyder/proprietary/lib/libportaljni.so:/system/lib/libportaljni.so \
 vendor/motorola/spyder/proprietary/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 vendor/motorola/spyder/proprietary/lib/libprovlib.so:/system/lib/libprovlib.so \
 vendor/motorola/spyder/proprietary/lib/libquicksec.so:/system/lib/libquicksec.so \
@@ -266,17 +266,8 @@ vendor/motorola/spyder/proprietary/lib/helixndk/libtsfformat.so:/system/lib/heli
 vendor/motorola/spyder/proprietary/lib/helixndk/libvidsite_ics.so:/system/lib/helixndk/libvidsite_ics.so \
 vendor/motorola/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 
-# Camera files
-PRODUCT_COPY_FILES += \
-vendor/motorola/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
-vendor/motorola/spyder/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
-vendor/motorola/spyder/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
-vendor/motorola/spyder/proprietary/lib/libcameraeventlog.so:/system/lib/libcameraeventlog.so \
-vendor/motorola/spyder/proprietary/lib/libtiutils.so:/system/lib/libtiutils.so \
-vendor/motorola/spyder/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
+#vendor/motorola/spyder/proprietary/lib/libportaljni.so:/system/lib/libportaljni.so \
 
-#vendor/motorola/spyder/proprietary/lib/libpgmjni.so:/system/lib/libpgmjni.so \
-#vendor/motorola/spyder/proprietary/lib/libvorbisidec.so:/system/lib/libvorbisidec.so \
 # RIL files
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/bin/base64:/system/bin/base64 \
@@ -298,19 +289,6 @@ vendor/motorola/spyder/proprietary/lib/libims_client_jni.so:/system/lib/libims_c
 vendor/motorola/spyder/proprietary/lib/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/spyder/proprietary/lib/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/spyder/proprietary/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
-
-# OMX
-#PRODUCT_COPY_FILES += \
-#vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.so \
-#vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so:/system/lib/#libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so \
-#vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so \
-#vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so \
-#vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
-#vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:/system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
-#vendor/motorola/spyder/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
-#vendor/motorola/spyder/proprietary/lib/libOMX_Core.so:/system/lib/libOMX_Core.so \
-#vendor/motorola/spyder/proprietary/lib/libdomx.so:/system/lib/libdomx.so \
-#vendor/motorola/spyder/proprietary/lib/libmm_osal.so:/system/lib/libmm_osal.so \
 
 # system/lib/hw
 PRODUCT_COPY_FILES += \
