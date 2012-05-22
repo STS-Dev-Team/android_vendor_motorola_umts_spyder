@@ -266,17 +266,7 @@ vendor/motorola/spyder/proprietary/lib/helixndk/libvidsite_ics.so:/system/lib/he
 vendor/motorola/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 
 #vendor/motorola/spyder/proprietary/lib/libportaljni.so:/system/lib/libportaljni.so \
-# Camera files
-PRODUCT_COPY_FILES += \
-vendor/motorola/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
-vendor/motorola/spyder/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
-vendor/motorola/spyder/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
-vendor/motorola/spyder/proprietary/lib/libcameraeventlog.so:/system/lib/libcameraeventlog.so \
-vendor/motorola/spyder/proprietary/lib/libtiutils.so:/system/lib/libtiutils.so \
-vendor/motorola/spyder/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
 
-#vendor/motorola/spyder/proprietary/lib/libpgmjni.so:/system/lib/libpgmjni.so \
-#vendor/motorola/spyder/proprietary/lib/libvorbisidec.so:/system/lib/libvorbisidec.so \
 # RIL files
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/bin/base64:/system/bin/base64 \
@@ -298,20 +288,6 @@ vendor/motorola/spyder/proprietary/lib/libims_client_jni.so:/system/lib/libims_c
 vendor/motorola/spyder/proprietary/lib/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/spyder/proprietary/lib/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/spyder/proprietary/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
-
-# OMX
-PRODUCT_COPY_FILES += \
-vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.so \
-vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so \
-vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so \
-vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so \
-vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:/system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
-vendor/motorola/spyder/proprietary/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:/system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
-vendor/motorola/spyder/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
-vendor/motorola/spyder/proprietary/lib/libOMX_Core.so:/system/lib/libOMX_Core.so \
-vendor/motorola/spyder/proprietary/lib/libdomx.so:/system/lib/libdomx.so \
-vendor/motorola/spyder/proprietary/lib/libmm_osal.so:/system/lib/libmm_osal.so \
-vendor/motorola/spyder/proprietary/lib/libion.so:/system/lib/libion.so \
 
 # system/lib/hw
 PRODUCT_COPY_FILES += \
