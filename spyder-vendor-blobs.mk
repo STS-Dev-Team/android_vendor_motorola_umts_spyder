@@ -252,3 +252,8 @@ vendor/motorola/spyder/proprietary/vendor/lib/libusc_SGX540_120.so:/system/vendo
 vendor/motorola/spyder/proprietary/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
 vendor/motorola/spyder/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
 vendor/motorola/spyder/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
+
+# Camera libs we need for now
+PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
+vendor/motorola/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
