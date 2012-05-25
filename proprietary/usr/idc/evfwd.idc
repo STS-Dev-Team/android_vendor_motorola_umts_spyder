@@ -17,3 +17,4 @@
 #
 device.internal=0
 keyboard.builtIn=0
+webtop.ignore=1
