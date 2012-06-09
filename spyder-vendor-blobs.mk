@@ -135,7 +135,7 @@ vendor/motorola/spyder/proprietary/lib/libadkutils.so:/system/lib/libadkutils.so
 vendor/motorola/spyder/proprietary/lib/libamcm.so:/system/lib/libamcm.so \
 vendor/motorola/spyder/proprietary/lib/libbattd.so:/system/lib/libbattd.so \
 vendor/motorola/spyder/proprietary/lib/libbcbmsg.so:/system/lib/libbcbmsg.so \
-vendor/motorola/spyder/proprietary/lib/libbt-aptx.so:/system/lib/libbt-aptx.so \
+vendor/motorola/spyder/proprietary/lib/libbt-aptx-4.0.3.so:/system/lib/libbt-aptx-4.0.3.so \
 vendor/motorola/spyder/proprietary/lib/libcaps.so:/system/lib/libcaps.so \
 vendor/motorola/spyder/proprietary/lib/libcapsjava.so:/system/lib/libcapsjava.so \
 vendor/motorola/spyder/proprietary/lib/libdlnahttpjni.so:/system/lib/libdlnahttpjni.so \
@@ -150,8 +150,6 @@ vendor/motorola/spyder/proprietary/lib/libexempi.so:/system/lib/libexempi.so \
 vendor/motorola/spyder/proprietary/lib/libextdispjni.so:/system/lib/libextdispjni.so \
 vendor/motorola/spyder/proprietary/lib/libhdcp.so:/system/lib/libhdcp.so \
 vendor/motorola/spyder/proprietary/lib/libhdmi.so:/system/lib/libhdmi.so \
-vendor/motorola/spyder/proprietary/lib/libhelixmediaplayerjni_ics.so:/system/lib/libhelixmediaplayerjni_ics.so \
-vendor/motorola/spyder/proprietary/lib/libhelixplayerndk_ics.so:/system/lib/libhelixplayerndk_icsi.so \
 vendor/motorola/spyder/proprietary/lib/libimage_jni.so:/system/lib/libimage_jni.so \
 vendor/motorola/spyder/proprietary/lib/libjni_nwp.so:/system/lib/libjni_nwp.so \
 vendor/motorola/spyder/proprietary/lib/libmetainfo.so:/system/lib/libmetainfo.so \
@@ -215,7 +213,6 @@ vendor/motorola/spyder/proprietary/lib/libmoto_nwif_ril.so:/system/lib/libmoto_n
 vendor/motorola/spyder/proprietary/lib/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
 vendor/motorola/spyder/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
 vendor/motorola/spyder/proprietary/lib/libmotdb.so:/system/lib/libmotdb.so \
-vendor/motorola/spyder/proprietary/lib/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/spyder/proprietary/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
 
 #vendor/motorola/spyder/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \

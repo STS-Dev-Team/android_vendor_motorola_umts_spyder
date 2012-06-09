@@ -55,11 +55,6 @@ b2gdumpstate(){
     runTimedCommand $timeout_dumpstate "/system/bin/dumpstate $1"
 }
 
-#$1 : options and path
-b2gls(){
-    output=$(/system/bin/ls $1)
-}
-
 #$1 : path
 b2gdf(){
     runTimedCommand $timeout_df "/system/bin/df $1"
@@ -108,8 +103,7 @@ getSystemProperties(){
 
 #A shell function checking if a file exists
 fileExists(){
-    b2gls "-l $1"
-    for line in $output
+    for line in $(/system/bin/ls -l $1)
     do
         return 1
     done
@@ -276,12 +270,12 @@ collectLogs(){
         /sdcard/batterytracer/databases/current\
         /sdcard/batterytracer/databases/backup0"
     for loc in $battTracerLocs; do
-        b2gls $loc/*.btd
-        copyFileIfExists $output
-        case $buildType in
+        for file in $(/system/bin/ls $loc/*.btd); do
+            copyFileIfExists $file
+        done
+        case $(/system/bin/getprop ro.build.type) in
         user)
-            b2gls $loc/*.log
-            for file in $output; do
+            for file in $(/system/bin/ls $loc/*.log); do
                 copyFileIfExists $file
             done
         ;;
@@ -289,8 +283,7 @@ collectLogs(){
     done
 
     #AP panic log fils
-    b2gls /data/dontpanic/
-    for file in $output
+    for file in $(/system/bin/ls /data/dontpanic/)
     do
         copyFileIfExists "/data/dontpanic/$file"
     done

@@ -13,6 +13,7 @@ key A {
     ctrl, alt, meta:                    none
     ralt:                               '\u00e6'
     shift+ralt:                         '\u00c6'
+    capslock+shift:                     'a'
 }
 
 key B {
@@ -22,6 +23,7 @@ key B {
     ctrl, alt, meta:                    none
     ralt:                               '\u201d'
     shift+ralt:                         '\u2019'
+    capslock+shift:                     'b'
 }
 
 key C {
@@ -31,6 +33,7 @@ key C {
     ctrl, alt, meta:                    none
     ralt:                               '\u00a2'
     shift+ralt:                         '\u00a9'
+    capslock+shift:                     'c'
 }
 
 key D {
@@ -40,6 +43,7 @@ key D {
     ctrl, alt, meta:                    none
     ralt:                               '\u00f0'
     shift+ralt:                         '\u00d0'
+    capslock+shift:                     'd'
 }
 
 key E {
@@ -49,6 +53,7 @@ key E {
     ctrl, alt, meta:                    none
     ralt:                               '\u20ac'
     shift+ralt:                         '\u00a2'
+    capslock+shift:                     'e'
 }
 
 key F {
@@ -58,6 +63,7 @@ key F {
     ctrl, alt, meta:                    none
     ralt:                               '\u0111'
     shift+ralt:                         '\u00aa'
+    capslock+shift:                     'f'
 }
 
 key G {
@@ -67,6 +73,7 @@ key G {
     ctrl, alt, meta:                    none
     ralt:                               '\u014b'
     shift+ralt:                         '\u014a'
+    capslock+shift:                     'g'
 }
 
 key H {
@@ -76,6 +83,7 @@ key H {
     ctrl, alt, meta:                    none
     ralt:                               '\u0127'
     shift+ralt:                         '\u0126'
+    capslock+shift:                     'h'
 }
 
 key I {
@@ -85,6 +93,7 @@ key I {
     ctrl, alt, meta:                    none
     ralt:                               '\u2192'
     shift+ralt:                         '\u0131'
+    capslock+shift:                     'i'
 }
 
 key J {
@@ -94,6 +103,7 @@ key J {
     ctrl, alt, meta:                    none
     ralt:                               'j'
     shift+ralt:                         'J'
+    capslock+shift:                     'j'
 }
 
 key K {
@@ -103,6 +113,7 @@ key K {
     ctrl, alt, meta:                    none
     ralt:                               '\u0138'
     shift+ralt:                         '&'
+    capslock+shift:                     'k'
 }
 
 key L {
@@ -112,6 +123,7 @@ key L {
     ctrl, alt, meta:                    none
     ralt:                               '\u0142'
     shift+ralt:                         '\u0141'
+    capslock+shift:                     'l'
 }
 
 key M {
@@ -121,6 +133,7 @@ key M {
     ctrl, alt, meta:                    none
     ralt:                               '\u00b5'
     shift+ralt:                         '\u00ba'
+    capslock+shift:                     'm'
 }
 
 key N {
@@ -130,6 +143,7 @@ key N {
     ctrl, alt, meta:                    none
     ralt:                               'n'
     shift+ralt:                         'N'
+    capslock+shift:                     'n'
 }
 
 key O {
@@ -139,6 +153,7 @@ key O {
     ctrl, alt, meta:                    none
     ralt:                               '\u00f8'
     shift+ralt:                         '\u00d8'
+    capslock+shift:                     'o'
 }
 
 key P {
@@ -148,6 +163,7 @@ key P {
     ctrl, alt, meta:                    none
     ralt:                               '\u00fe'
     shift+ralt:                         '\u00de'
+    capslock+shift:                     'p'
 }
 
 key Q {
@@ -157,6 +173,7 @@ key Q {
     ctrl, alt, meta:                    none
     ralt:                               '@'
     shift+ralt:                         '\u03a9'
+    capslock+shift:                     'q'
 }
 
 key R {
@@ -166,6 +183,7 @@ key R {
     ctrl, alt, meta:                    none
     ralt:                               '\u00b6'
     shift+ralt:                         '\u00ae'
+    capslock+shift:                     'r'
 }
 
 key S {
@@ -175,6 +193,7 @@ key S {
     ctrl, alt, meta:                    none
     ralt:                               '\u00df'
     shift+ralt:                         '\u00a7'
+    capslock+shift:                     's'
 }
 
 key T {
@@ -184,6 +203,7 @@ key T {
     ctrl, alt, meta:                    none
     ralt:                               '\u0167'
     shift+ralt:                         '\u0166'
+    capslock+shift:                     't'
 }
 
 key U {
@@ -193,6 +213,7 @@ key U {
     ctrl, alt, meta:                    none
     ralt:                               '\u2193'
     shift+ralt:                         '\u2191'
+    capslock+shift:                     'u'
 }
 
 key V {
@@ -202,6 +223,7 @@ key V {
     ctrl, alt, meta:                    none
     ralt:                               '\u201c'
     shift+ralt:                         '\u2018'
+    capslock+shift:                     'v'
 }
 
 key W {
@@ -211,6 +233,7 @@ key W {
     ctrl, alt, meta:                    none
     ralt:                               '\u0142'
     shift+ralt:                         '\u0141'
+    capslock+shift:                     'w'
 }
 
 key X {
@@ -220,6 +243,7 @@ key X {
     ctrl, alt, meta:                    none
     ralt:                               '\u00bb'
     shift+ralt:                         '>'
+    capslock+shift:                     'x'
 }
 
 key Y {
@@ -229,6 +253,7 @@ key Y {
     ctrl, alt, meta:                    none
     ralt:                               '\u2190'
     shift+ralt:                         '\u00a5'
+    capslock+shift:                     'y'
 }
 
 key Z {
@@ -238,6 +263,7 @@ key Z {
     ctrl, alt, meta:                    none
     ralt:                               '\u00ab'
     shift+ralt:                         '<'
+    capslock+shift:                     'z'
 }
 
 key 0 {
@@ -447,7 +473,7 @@ key APOSTROPHE {
     shift+ralt:                         '{'
 }
 
-key PICTSYMBOLS {
+key INTL1 {
     label, number:                      '<'
     base:                               '<'
     shift:                              '>'
