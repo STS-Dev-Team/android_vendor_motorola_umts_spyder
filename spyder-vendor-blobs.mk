@@ -250,6 +250,7 @@ vendor/motorola/spyder/proprietary/vendor/lib/libusc_SGX540_120.so:/system/vendo
 vendor/motorola/spyder/proprietary/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
 vendor/motorola/spyder/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
 vendor/motorola/spyder/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
+vendor/motorola/spyder/proprietary/etc/powervr.ini:/system/etc/powervr.ini
 
 # Camera libs we need for now
 PRODUCT_COPY_FILES += \
