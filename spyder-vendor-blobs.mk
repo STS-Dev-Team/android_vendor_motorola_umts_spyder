@@ -43,6 +43,7 @@ vendor/motorola/spyder/proprietary/bin/mot_boot_mode:/system/bin/mot_boot_mode \
 vendor/motorola/spyder/proprietary/bin/motobox:/system/bin/motobox \
 vendor/motorola/spyder/proprietary/bin/mount_cdrom.sh:/system/bin/mount_cdrom.sh \
 vendor/motorola/spyder/proprietary/bin/msp430:/system/bin/msp430 \
+vendor/motorola/spyder/proprietary/bin/pppd-ril:/system/bin/pppd-ril \
 vendor/motorola/spyder/proprietary/bin/secclkd:/system/bin/secclkd \
 vendor/motorola/spyder/proprietary/bin/startup_smc.sh:/system/bin/startup_smc.sh \
 vendor/motorola/spyder/proprietary/bin/tcmd:/system/bin/tcmd \
