@@ -257,3 +257,9 @@ vendor/motorola/spyder/proprietary/etc/powervr.ini:/system/etc/powervr.ini
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
 vendor/motorola/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
+
+# Load TCMD libs
+PRODUCT_COPY_FILES += \
+vendor/motorola/maserati/proprietary/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
+vendor/motorola/maserati/proprietary/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
+
