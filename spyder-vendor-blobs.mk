@@ -100,6 +100,7 @@ vendor/motorola/spyder/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/
 vendor/motorola/spyder/proprietary/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
+vendor/motorola/spyder/proprietary/etc/powervr.ini:/system/etc/powervr.ini
 
 #vendor/motorola/spyder/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
 #vendor/motorola/spyder/proprietary/etc/wifi/hostapd.conf:/system/etc/wifi/hostapd.conf \
@@ -194,8 +195,7 @@ vendor/motorola/spyder/proprietary/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/spyder/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 vendor/motorola/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 vendor/motorola/spyder/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
-
-#vendor/motorola/spyder/proprietary/lib/libportaljni.so:/system/lib/libportaljni.so \
+vendor/motorola/spyder/proprietary/lib/libportaljni.so:/system/lib/libportaljni.so \
 
 # RIL files
 PRODUCT_COPY_FILES += \
@@ -251,7 +251,6 @@ vendor/motorola/spyder/proprietary/vendor/lib/libusc_SGX540_120.so:/system/vendo
 vendor/motorola/spyder/proprietary/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
 vendor/motorola/spyder/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
 vendor/motorola/spyder/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
-vendor/motorola/spyder/proprietary/etc/powervr.ini:/system/etc/powervr.ini
 
 # Camera libs we need for now
 PRODUCT_COPY_FILES += \
@@ -260,6 +259,6 @@ vendor/motorola/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.
 
 # Load TCMD libs
 PRODUCT_COPY_FILES += \
-vendor/motorola/maserati/proprietary/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
-vendor/motorola/maserati/proprietary/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
+vendor/motorola/spyder/proprietary/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
+vendor/motorola/spyder/proprietary/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
 
