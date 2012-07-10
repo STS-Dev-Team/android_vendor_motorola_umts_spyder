@@ -79,13 +79,6 @@ vendor/motorola/spyder/proprietary/etc/mspfirmware/version.txt:/system/etc/mspfi
 
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin:/system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:/system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:/system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:/system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
 vendor/motorola/spyder/proprietary/etc/nuance/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
 vendor/motorola/spyder/proprietary/etc/ppp/peers/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
 vendor/motorola/spyder/proprietary/etc/updatecmds/google_generic_update.txt:/system/etc/updatecmds/google_generic_update.txt \
@@ -96,7 +89,12 @@ vendor/motorola/spyder/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/
 vendor/motorola/spyder/proprietary/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
-vendor/motorola/spyder/proprietary/etc/powervr.ini:/system/etc/powervr.ini
+vendor/motorola/spyder/proprietary/etc/powervr.ini:/system/etc/powervr.ini \
+vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
+vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
+vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
+vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin \
+vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:/system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
 
 # system/usr
 PRODUCT_COPY_FILES += \
