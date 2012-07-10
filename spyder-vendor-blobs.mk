@@ -90,11 +90,13 @@ vendor/motorola/spyder/proprietary/etc/security/suplcerts.bks:system/etc/securit
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
 vendor/motorola/spyder/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
 vendor/motorola/spyder/proprietary/etc/powervr.ini:/system/etc/powervr.ini \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin \
-vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:/system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
+
+# use new firmware from omapzoom in device
+#vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
+#vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
+#vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
+#vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin \
+#vendor/motorola/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:/system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
 
 # system/usr
 PRODUCT_COPY_FILES += \
