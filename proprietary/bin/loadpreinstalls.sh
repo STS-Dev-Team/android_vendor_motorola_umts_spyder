@@ -6,6 +6,8 @@ DATA_HASH_DIR=/data/preinstall_md5
 PRELOAD_DONE_PROP=sys.preinstall.done
 PRELOAD_LOG_FILE=$DATA_HASH_DIR/log.txt
 
+setprop $PRELOAD_DONE_PROP 0
+
 umask 003
 
 mkdir $DATA_HASH_DIR

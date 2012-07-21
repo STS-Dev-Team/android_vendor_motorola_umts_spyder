@@ -1,0 +1,10 @@
+background_data=1
+location_providers_allowed=
+mobile_data=1
+wifi_on=0
+preferred_tty_mode=0
+default_input_method=com.swype.android.inputmethod/.SwypeInputMethod
+data_roaming=0
+bluetooth_on=0
+install_non_market_apps=0
+usb_mass_storage_enabled=1

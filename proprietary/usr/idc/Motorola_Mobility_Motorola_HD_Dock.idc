@@ -13,6 +13,6 @@
 # limitations under the License.
 
 #
-# Input Device Configuration File for webtop virtual device (evfwd).
+# Input Device Configuration File for webtop HD dock.
 #
 webtop.ignore=1

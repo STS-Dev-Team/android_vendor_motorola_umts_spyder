@@ -1,0 +1,15 @@
+auto_time=1
+volume_ring=9
+accelerometer_rotation=1
+dtmf_tone=1
+auto_replace=1
+airplane_mode_radios=cell,wifi,bluetooth
+time_12_24=24
+mode_ringer=2
+screen_off_timeout=60000
+volume_music=9
+date_format=dd-MM-yyyy
+vibrate_on=5
+auto_punctuate=1
+auto_caps=1
+screen_brightness=153

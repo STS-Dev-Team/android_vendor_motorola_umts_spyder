@@ -406,7 +406,8 @@ key APOSTROPHE {
     label, number:                      '\''
     base:                               '\''
     shift:                              '"'
-    ctrl, alt, meta:                    none
+    alt                                 '\u0301'
+    ctrl, meta:                         none
 }
 
 ### Numeric keypad ###

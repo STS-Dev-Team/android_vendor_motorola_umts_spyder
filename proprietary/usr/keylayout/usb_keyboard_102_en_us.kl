@@ -122,7 +122,9 @@ key 98    NUMPAD_DIVIDE
 key 99    SYSRQ
 key 100   ALT_RIGHT
 # key 101 "KEY_LINEFEED"
-key 102   MOVE_HOME
+# BEGIN Motorola, w36150, 06/18/2012, IKHSS6UPGR-11973 / HOME key is not functioning
+key 102   HOME
+# END IKHSS6UPGR-11973
 key 103   DPAD_UP
 key 104   PAGE_UP
 key 105   DPAD_LEFT
