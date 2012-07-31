@@ -71,6 +71,7 @@ vendor/motorola/umts_spyder/proprietary/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_
 vendor/motorola/umts_spyder/proprietary/etc/mspfirmware/mspfirmware.bin:/system/etc/mspfirmware/mspfirmware.bin \
 vendor/motorola/umts_spyder/proprietary/etc/mspfirmware/version.txt:/system/etc/mspfirmware/version.txt \
 
+#vendor/motorola/umts_spyder/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
 # system/etc/(others)
 #vendor/motorola/umts_spyder/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
 
@@ -212,10 +213,10 @@ vendor/motorola/umts_spyder/proprietary/lib/moto-ril-multimode.so:/system/lib/mo
 
 # system/lib/hw
 PRODUCT_COPY_FILES += \
-vendor/motorola/umts_spyder/proprietary/lib/hw/gps.spyder.so:/system/lib/hw/gps.spyder.so \
-vendor/motorola/umts_spyder/proprietary/lib/hw/lights.spyder.so:/system/lib/hw/lights.spyder.so \
-vendor/motorola/umts_spyder/proprietary/lib/hw/sensors.spyder.so:/system/lib/hw/sensors.spyder.so \
-vendor/motorola/umts_spyder/proprietary/lib/hw/sensorhub.spyder.so:/system/lib/hw/sensorhub.spyder.so \
+vendor/motorola/umts_spyder/proprietary/lib/hw/gps.spyder.so:/system/lib/hw/gps.umts_spyder.so \
+vendor/motorola/umts_spyder/proprietary/lib/hw/lights.spyder.so:/system/lib/hw/lights.umts_spyder.so \
+vendor/motorola/umts_spyder/proprietary/lib/hw/sensors.spyder.so:/system/lib/hw/sensors.umts_spyder.so \
+vendor/motorola/umts_spyder/proprietary/lib/hw/sensorhub.spyder.so:/system/lib/hw/sensorhub.umts_spyder.so \
 
 # system/xbin
 PRODUCT_COPY_FILES += \
