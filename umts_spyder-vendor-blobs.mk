@@ -71,10 +71,7 @@ vendor/motorola/umts_spyder/proprietary/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_
 vendor/motorola/umts_spyder/proprietary/etc/mspfirmware/mspfirmware.bin:/system/etc/mspfirmware/mspfirmware.bin \
 vendor/motorola/umts_spyder/proprietary/etc/mspfirmware/version.txt:/system/etc/mspfirmware/version.txt \
 
-#vendor/motorola/umts_spyder/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
 # system/etc/(others)
-#vendor/motorola/umts_spyder/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
-
 PRODUCT_COPY_FILES += \
 vendor/motorola/umts_spyder/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
 vendor/motorola/umts_spyder/proprietary/etc/nuance/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
@@ -86,13 +83,6 @@ vendor/motorola/umts_spyder/proprietary/etc/wifi/wlan_fem.ini:/system/etc/wifi/w
 vendor/motorola/umts_spyder/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
 vendor/motorola/umts_spyder/proprietary/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
 vendor/motorola/umts_spyder/proprietary/etc/powervr.ini:/system/etc/powervr.ini \
-
-# use new firmware from omapzoom in device
-#vendor/motorola/umts_spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
-#vendor/motorola/umts_spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
-#vendor/motorola/umts_spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
-#vendor/motorola/umts_spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin \
-#vendor/motorola/umts_spyder/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:/system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
 
 # system/usr
 PRODUCT_COPY_FILES += \
@@ -218,35 +208,17 @@ vendor/motorola/umts_spyder/proprietary/lib/hw/lights.spyder.so:/system/lib/hw/l
 vendor/motorola/umts_spyder/proprietary/lib/hw/sensors.spyder.so:/system/lib/hw/sensors.umts_spyder.so \
 vendor/motorola/umts_spyder/proprietary/lib/hw/sensorhub.spyder.so:/system/lib/hw/sensorhub.umts_spyder.so \
 
+# system/vendor
+PRODUCT_COPY_FILES += \
+vendor/motorola/umts_spyder/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
+vendor/motorola/umts_spyder/proprietary/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
+vendor/motorola/umts_spyder/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+vendor/motorola/umts_spyder/proprietary/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
+vendor/motorola/umts_spyder/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
+
 # system/xbin
 PRODUCT_COPY_FILES += \
 vendor/motorola/umts_spyder/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_test \
-
-# system/vendor
-PRODUCT_COPY_FILES += \
-vendor/motorola/umts_spyder/proprietary/vendor/bin/pvrsrvinit:/system/vendor/bin/pvrsrvinit \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/egl/libeglinfo.so:/system/vendor/lib/egl/libeglinfo.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/hw/gralloc.omap4.so:/system/vendor/lib/hw/gralloc.omap4.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libglslcompiler_SGX540_120.so:/system/vendor/lib/libglslcompiler_SGX540_120.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libIMGegl_SGX540_120.so:/system/vendor/lib/libIMGegl_SGX540_120.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libpvr2d_SGX540_120.so:/system/vendor/lib/libpvr2d_SGX540_120.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libpvrANDROID_WSEGL_SGX540_120.so:/system/vendor/lib/libpvrANDROID_WSEGL_SGX540_120.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libPVRScopeServices.so:/system/vendor/lib/libPVRScopeServices.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libsrv_init_SGX540_120.so:/system/vendor/lib/libsrv_init_SGX540_120.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libsrv_um_SGX540_120.so:/system/vendor/lib/libsrv_um_SGX540_120.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libusc_SGX540_120.so:/system/vendor/lib/libusc_SGX540_120.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-vendor/motorola/umts_spyder/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
-
-# Camera libs we need for now
-#PRODUCT_COPY_FILES += \
-#vendor/motorola/umts_spyder/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
-#vendor/motorola/umts_spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
 
 # Load TCMD libs
 PRODUCT_COPY_FILES += \
