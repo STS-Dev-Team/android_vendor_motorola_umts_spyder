@@ -205,9 +205,9 @@ $(VENDOR_BLOB_FOLDER)/xbin/drm1_func_test:/system/xbin/drm1_func_test \
 
 # Load TCMD libs
 PRODUCT_COPY_FILES += \
-$(VENDOR_BLOB_FOLDER)/proprietary/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
-$(VENDOR_BLOB_FOLDER)/proprietary/lib/libfm_stack.so:/system/lib/libfm_stack.so \
-$(VENDOR_BLOB_FOLDER)/proprietary/lib/libfmchr.so:/system/lib/libfmchr.so \
-$(VENDOR_BLOB_FOLDER)/proprietary/lib/libmcphal.so:/system/lib/libmcphal.so \
-$(VENDOR_BLOB_FOLDER)/proprietary/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
+$(VENDOR_BLOB_FOLDER)/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
+$(VENDOR_BLOB_FOLDER)/lib/libfm_stack.so:/system/lib/libfm_stack.so \
+$(VENDOR_BLOB_FOLDER)/lib/libfmchr.so:/system/lib/libfmchr.so \
+$(VENDOR_BLOB_FOLDER)/lib/libmcphal.so:/system/lib/libmcphal.so \
+$(VENDOR_BLOB_FOLDER)/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
 
