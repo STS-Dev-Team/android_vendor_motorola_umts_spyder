@@ -28,4 +28,4 @@ PRODUCT_COPY_FILES := \
 #DEVICE_PACKAGE_OVERLAYS := vendor/motorola/umts_spyder/overlay
 
 $(call inherit-product, vendor/motorola/umts_spyder/umts_spyder-vendor-blobs.mk)
-$(call inherit-product, vendor/motorola/umts_spyder/ducati-full.mk)
+
