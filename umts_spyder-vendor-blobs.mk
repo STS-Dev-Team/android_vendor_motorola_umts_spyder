@@ -35,7 +35,7 @@ $(VENDOR_BLOB_FOLDER)/bin/thermaldaemon:/system/bin/thermaldaemon \
 $(VENDOR_BLOB_FOLDER)/bin/tty2ttyd:/system/bin/tty2ttyd \
 $(VENDOR_BLOB_FOLDER)/bin/usbd:/system/bin/usbd \
 $(VENDOR_BLOB_FOLDER)/bin/whisperd:/system/bin/whisperd \
-$(VENDOR_BLOB_FOLDER)/bin/vpnclientpm:/system/bin/vpnclientpm \
+$(VENDOR_BLOB_FOLDER)/bin/vpnclientpm:/system/bin/vpnclientpm
 
 # system/etc
 PRODUCT_COPY_FILES += \
@@ -53,7 +53,7 @@ $(VENDOR_BLOB_FOLDER)/etc/smc_pa.ift:/system/etc/smc_pa.ift \
 $(VENDOR_BLOB_FOLDER)/etc/smc_pa_pk_4_8Mb_ipa.bin:/system/etc/smc_pa_pk_4_8Mb_ipa.bin \
 $(VENDOR_BLOB_FOLDER)/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 $(VENDOR_BLOB_FOLDER)/etc/mspfirmware/mspfirmware.bin:/system/etc/mspfirmware/mspfirmware.bin \
-$(VENDOR_BLOB_FOLDER)/etc/mspfirmware/version.txt:/system/etc/mspfirmware/version.txt \
+$(VENDOR_BLOB_FOLDER)/etc/mspfirmware/version.txt:/system/etc/mspfirmware/version.txt
 
 # system/etc/(others)
 PRODUCT_COPY_FILES += \
@@ -65,7 +65,7 @@ $(VENDOR_BLOB_FOLDER)/etc/VideoEditorLite/mve.ini:/system/etc/VideoEditorLite/mv
 $(VENDOR_BLOB_FOLDER)/etc/vsensor.d/MeaningFulLocation.vsensor:/system/etc/vsensor.d/MeaningFulLocation.vsensor \
 $(VENDOR_BLOB_FOLDER)/etc/wifi/wlan_fem.ini:/system/etc/wifi/wlan_fem.ini \
 $(VENDOR_BLOB_FOLDER)/etc/motorola/12m/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
-$(VENDOR_BLOB_FOLDER)/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
+$(VENDOR_BLOB_FOLDER)/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks
 
 # system/usr
 PRODUCT_COPY_FILES += \
@@ -101,7 +101,7 @@ $(VENDOR_BLOB_FOLDER)/usr/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.
 $(VENDOR_BLOB_FOLDER)/usr/keylayout/cy8c201xx.kl:system/usr/keylayout/cy8c201xx.kl \
 $(VENDOR_BLOB_FOLDER)/usr/keylayout/evfwd.kl:system/usr/keylayout/evfwd.kl \
 $(VENDOR_BLOB_FOLDER)/usr/keylayout/omap4-keypad.kl:system/usr/keylayout/omap4-keypad.kl \
-$(VENDOR_BLOB_FOLDER)/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
+$(VENDOR_BLOB_FOLDER)/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl
 
 # system/lib
 PRODUCT_COPY_FILES += \
@@ -165,7 +165,7 @@ $(VENDOR_BLOB_FOLDER)/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 $(VENDOR_BLOB_FOLDER)/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 $(VENDOR_BLOB_FOLDER)/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
-$(VENDOR_BLOB_FOLDER)/lib/libportaljni.so:/system/lib/libportaljni.so \
+$(VENDOR_BLOB_FOLDER)/lib/libportaljni.so:/system/lib/libportaljni.so
 
 # RIL files
 PRODUCT_COPY_FILES += \
@@ -181,25 +181,25 @@ $(VENDOR_BLOB_FOLDER)/lib/libmotdb.so:/system/lib/libmotdb.so \
 $(VENDOR_BLOB_FOLDER)/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 $(VENDOR_BLOB_FOLDER)/lib/librds_util.so:/system/lib/librds_util.so \
 $(VENDOR_BLOB_FOLDER)/lib/libril_rds.so:/system/lib/libril_rds.so \
-$(VENDOR_BLOB_FOLDER)/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
+$(VENDOR_BLOB_FOLDER)/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so
 
 # system/lib/hw
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/lib/hw/gps.spyder.so:/system/lib/hw/gps.umts_spyder.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/lights.spyder.so:/system/lib/hw/lights.umts_spyder.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.spyder.so:/system/lib/hw/sensors.umts_spyder.so \
-$(VENDOR_BLOB_FOLDER)/lib/hw/sensorhub.spyder.so:/system/lib/hw/sensorhub.umts_spyder.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/sensorhub.spyder.so:/system/lib/hw/sensorhub.umts_spyder.so
 
 # system/vendor
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
 $(VENDOR_BLOB_FOLDER)/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
 $(VENDOR_BLOB_FOLDER)/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
-$(VENDOR_BLOB_FOLDER)/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
+$(VENDOR_BLOB_FOLDER)/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so
 
 # system/xbin
 PRODUCT_COPY_FILES += \
-$(VENDOR_BLOB_FOLDER)/xbin/drm1_func_test:/system/xbin/drm1_func_test \
+$(VENDOR_BLOB_FOLDER)/xbin/drm1_func_test:/system/xbin/drm1_func_test
 
 # Load TCMD libs
 PRODUCT_COPY_FILES += \
@@ -207,5 +207,5 @@ $(VENDOR_BLOB_FOLDER)/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
 $(VENDOR_BLOB_FOLDER)/lib/libfm_stack.so:/system/lib/libfm_stack.so \
 $(VENDOR_BLOB_FOLDER)/lib/libfmchr.so:/system/lib/libfmchr.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmcphal.so:/system/lib/libmcphal.so \
-$(VENDOR_BLOB_FOLDER)/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
+$(VENDOR_BLOB_FOLDER)/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so
 
