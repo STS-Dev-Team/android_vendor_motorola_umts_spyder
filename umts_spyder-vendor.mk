@@ -16,4 +16,4 @@
 #DEVICE_PACKAGE_OVERLAYS := vendor/motorola/umts_spyder/overlay
 
 $(call inherit-product, vendor/motorola/umts_spyder/umts_spyder-vendor-blobs.mk)
-$(call inherit-product, vendor/motorola/common/common-vendor.mk)
+$(call inherit-product, vendor/motorola/omap4-common/common-vendor.mk)
